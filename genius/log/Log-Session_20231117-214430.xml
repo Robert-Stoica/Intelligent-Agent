@@ -1,0 +1,9 @@
+<?xml version="1.0" ?><Session>
+<NegotiationOutcome currentTime="Fri Nov 17 21:44:31 GMT 2023" timeOfAgreement="0.6557377049180327" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Party Tent, Invitations: Plain, Music: MP3, Cleanup: Special Equiment])" domain="etc/templates/partydomain/party_domain.xml" bids="111" runtime="1.2178758" finalOutcome="Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Party Tent, Invitations: Plain, Music: MP3, Cleanup: Special Equiment]" startingAgent="Group10.ExampleAgent@0" deadline="60rounds">
+<resultsOfAgent agent="Group10.ExampleAgent@0" agentDesc="Example Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="Group10.ExampleAgent" userUtility="0.6441666666666667" finalUtility="0.6441666666666667" discountedUtility="0.6441666666666667" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="RandomCounterOfferNegotiationParty@1" agentDesc="Place random bids until 90% of time" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="negotiator.parties.RandomCounterOfferNegotiationParty" userUtility="0.6151982371216707" finalUtility="0.6151982371216707" discountedUtility="0.6151982371216707" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Nozomi@2" agentDesc="ANAC2010" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2010.Nozomi.Nozomi" userUtility="0.9114448528694914" finalUtility="0.9114448528694914" discountedUtility="0.9114448528694914" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome></Session>
