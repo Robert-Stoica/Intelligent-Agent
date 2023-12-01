@@ -441,7 +441,7 @@
             <partyRepItem classPath="negotiator.parties.FeedbackHillClimber" strategyParameters="">
                 <properties/>
             </partyRepItem>
-            <partyRepItem classPath="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\Group10.ExampleAgent.class" strategyParameters="">
+            <partyRepItem classPath="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10.ExampleAgent.class" strategyParameters="">
                 <properties/>
             </partyRepItem>
         </partyRepItems>
