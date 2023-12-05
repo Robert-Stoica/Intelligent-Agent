@@ -1,0 +1,7 @@
+<?xml version="1.0" ?><Session>
+<NegotiationOutcome exception="Failed to execute protocol: There is no evaluator for issue 2" currentTime="Wed Nov 29 22:17:54 GMT 2023" lastAction="(Accept  bid:Bid[Food: Catering])" bids="114" runtime="1.7546543" deadline="60rounds">
+<resultsOfAgent agent="ImprovedRandomAgent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\ImprovedRandomAgent.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="OptimalBidderSimple" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.OptimalBidderSimple" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome></Session>

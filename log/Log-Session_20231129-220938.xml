@@ -1,0 +1,9 @@
+<?xml version="1.0" ?><Session>
+<NegotiationOutcome currentTime="Wed Nov 29 22:09:39 GMT 2023" timeOfAgreement="0.5409836065573771" lastAction="(Accept  bid:Bid[Laptop: HP, Harddisk: 80 Gb, External Monitor: 19'' LCD])" domain="etc/templates/anac/y2011/Laptop/laptop_domain.xml" bids="71" runtime="0.6916725" finalOutcome="Bid[Laptop: HP, Harddisk: 80 Gb, External Monitor: 19'' LCD]" startingAgent="ImprovedRandomAgent@0" deadline="60rounds">
+<resultsOfAgent agent="ImprovedRandomAgent@0" agentDesc="Improved Random Agent" utilspace="etc/templates/anac/y2011/Laptop/laptop_buyer_utility.xml" agentClass="group10.ImprovedRandomAgent" userUtility="0.5497456895007976" finalUtility="0.8740242984783759" discountedUtility="0.5497456895007976" discount="0.42441038" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="ExampleAgent@1" agentDesc="Example Agent" utilspace="etc/templates/anac/y2011/Laptop/laptop_seller_utility.xml" agentClass="group10.ExampleAgent" userUtility="0.5497456895007977" finalUtility="0.874024298478376" discountedUtility="0.5497456895007977" discount="0.42441038" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty@2" agentDesc="Time-based agent" utilspace="etc/templates/anac/y2011/Laptop/laptop_seller_utility_u10.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.5496251317681798" finalUtility="0.873832627329898" discountedUtility="0.5496251317681798" discount="0.42441038" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome></Session>

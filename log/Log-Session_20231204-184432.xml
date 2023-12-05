@@ -1,0 +1,9 @@
+<?xml version="1.0" ?><Session>
+<NegotiationOutcome currentTime="Mon Dec 04 18:44:36 GMT 2023" timeOfAgreement="0.9508196721311475" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Party Room, Invitations: Plain, Music: MP3, Cleanup: Specialized Materials])" domain="etc/templates/partydomain/party_domain.xml" bids="163" runtime="3.6538647" finalOutcome="Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Party Room, Invitations: Plain, Music: MP3, Cleanup: Specialized Materials]" startingAgent="Agent10@2" deadline="60rounds">
+<resultsOfAgent agent="Agent10@2" agentDesc="My example Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.8058333333333333" finalUtility="0.8058333333333333" discountedUtility="0.8058333333333333" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="IAMhaggler2011@3" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2011.IAMhaggler2011.IAMhaggler2011" userUtility="0.7405280739267821" finalUtility="0.7405280739267821" discountedUtility="0.7405280739267821" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty@4" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.7535422029514075" finalUtility="0.7535422029514075" discountedUtility="0.7535422029514075" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome></Session>

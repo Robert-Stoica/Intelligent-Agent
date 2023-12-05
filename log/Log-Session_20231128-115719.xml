@@ -1,0 +1,7 @@
+<?xml version="1.0" ?><Session>
+<NegotiationOutcome currentTime="Tue Nov 28 11:57:19 GMT 2023" timeOfAgreement="0.5245901639344263" lastAction="(Accept  bid:Bid[a: a1, b: b3])" domain="etc/templates/ANAC2016/Atlas3/triangularFight.xml" bids="62" runtime="0.4598841" finalOutcome="Bid[a: a1, b: b3]" startingAgent="ExampleAgent@0" deadline="60rounds">
+<resultsOfAgent agent="ExampleAgent@0" agentDesc="Example Agent" utilspace="etc/templates/ANAC2016/Atlas3/triangularFight_util1.xml" agentClass="group10.ExampleAgent" userUtility="0.1992134134474866" finalUtility="0.6666666666666666" discountedUtility="0.1992134134474866" discount="0.1" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="TimeDependentAgentBoulware@1" agentDesc="reluctant to concede" utilspace="etc/templates/ANAC2016/Atlas3/triangularFight_util2.xml" agentClass="agents.TimeDependentAgentBoulware" userUtility="0.29882012017122994" finalUtility="1.0" discountedUtility="0.29882012017122994" discount="0.1" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome></Session>
