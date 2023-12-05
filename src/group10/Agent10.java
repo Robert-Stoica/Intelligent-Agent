@@ -3,8 +3,8 @@ package group10;
 import genius.core.AgentID;
 import genius.core.Bid;
 import genius.core.BidHistory;
+import genius.core.actions.ActionWithBid;
 import genius.core.bidding.BidDetails;
-
 import genius.core.actions.Accept;
 import genius.core.actions.Action;
 import genius.core.actions.Offer;
@@ -14,14 +14,13 @@ import genius.core.utility.AbstractUtilitySpace;
 import genius.core.utility.AdditiveUtilitySpace;
 
 import java.util.ArrayList;
-
 import java.util.List;
 
 
 public class Agent10 extends AbstractNegotiationParty {
     private final String agentDetails = "My example Agent";
 
-    private Bid currentProposal;
+    private List<Bid> currentProposal;
     private Bid previousBid;
 
     private Bid highestBid;
@@ -34,6 +33,8 @@ public class Agent10 extends AbstractNegotiationParty {
     @Override
     public void init(NegotiationInfo info) {
         super.init(info);
+
+        currentProposal = new ArrayList<>();
 
         AbstractUtilitySpace utilitySpace = info.getUtilitySpace();
         AdditiveUtilitySpace additiveUtilitySpace = (AdditiveUtilitySpace) utilitySpace;
@@ -54,64 +55,66 @@ public class Agent10 extends AbstractNegotiationParty {
     }
 
     /**
-     *
      * @param list
      * @return
      */
     @Override
     public Action chooseAction(List<Class<? extends Action>> list) {
 
+        System.out.println("Action1");
+
         double time = getTimeLine().getTime();
 
-        if (currentProposal != null) {
+        ActionWithBid returnThis = null;
 
-            double offerUtility = this.utilitySpace.getUtility(currentProposal);
-
-            receivedOffersList.add(new ProposalAnalysis(offerUtility));
-
-            BidDetails offerReceiveDetail = new BidDetails(currentProposal, 0, time);
-            pastBids.add(offerReceiveDetail);
-
+        if (!currentProposal.isEmpty()) {
+            for (Bid currentBid : currentProposal) {
+                double offerUtility = this.utilitySpace.getUtility(currentBid);
+                receivedOffersList.add(new ProposalAnalysis(offerUtility));
+                BidDetails offerReceiveDetail = new BidDetails(currentBid, 0, time);
+                pastBids.add(offerReceiveDetail);
+            }
         }
 
         if (time < 0.5) {
-
             double utilityThreshold = ((utilitySpace.getUtility(highestBid) + 0.8) / 2);
-            previousBid = generateRandomBidWithUtility(utilityThreshold);
-            return new Offer(this.getPartyId(), previousBid);
+            previousBid = (generateRandomBidWithUtility(utilityThreshold));
+            returnThis = new Offer(this.getPartyId(), previousBid);
         } else {
 
-            if (currentProposal != null
-                    && previousBid != null
-                    && this.utilitySpace.getUtility(currentProposal) > this.utilitySpace.getUtility(previousBid)) {
+            var possibleReturnValues = new ArrayList<ActionWithBid>();
 
-                return new Accept(this.getPartyId(), currentProposal);
-            } else {
+            for (Bid currentBid : currentProposal) {
+                if (previousBid != null
+                       && this.utilitySpace.getUtility(currentBid) > this.utilitySpace.getUtility(previousBid)) {
 
-                double totalReceivedOffers = 0;
-                double averageReceivedUtility;
-                double minimumUtilityLimit;
+                    possibleReturnValues.add(new Accept(this.getPartyId(), currentBid));
 
-                for (ProposalAnalysis proposalAnalysis : receivedOffersList) {
-                    totalReceivedOffers = totalReceivedOffers + proposalAnalysis.getUtilityValue();
+                } else {
+                    possibleReturnValues.add(returnAction());
                 }
-                averageReceivedUtility = totalReceivedOffers / receivedOffersList.size();
-                minimumUtilityLimit = ((utilitySpace.getUtility(highestBid) + averageReceivedUtility) / 2) * time;
-
-                if (minimumUtilityLimit < 0.67) {
-                    minimumUtilityLimit = ((utilitySpace.getUtility(highestBid) + 0.8) / 2);
-                }
-
-                System.out.println(minimumUtilityLimit);
-                System.out.println(pastBids.getAverageUtility());
-                System.out.println(pastBids.getBestBidDetails());
-                System.out.println(pastBids.getHistory());
-
-                previousBid = generateRandomBidWithUtility(minimumUtilityLimit);
-                return new Offer(this.getPartyId(), previousBid);
             }
 
+            ActionWithBid bestAction = possibleReturnValues.get(0);
+
+            for (ActionWithBid action : possibleReturnValues){
+                if (this.utilitySpace.getUtility(action.getBid()) > this.utilitySpace.getUtility(bestAction.getBid())){
+                    bestAction = action;
+                }
+            }
+
+            returnThis = bestAction;
         }
+
+        if (returnThis == null) {
+            returnThis = returnAction();
+        }
+
+        currentProposal.clear();
+
+        System.out.println(returnThis);
+
+        return returnThis;
     }
 
     /**
@@ -123,8 +126,8 @@ public class Agent10 extends AbstractNegotiationParty {
         super.receiveMessage(sender, act);
 
         if (act instanceof Offer offer) {
-
-            currentProposal = offer.getBid();
+            System.out.println("Recieve");
+            currentProposal.add(offer.getBid());
         }
 
     }
@@ -153,13 +156,39 @@ public class Agent10 extends AbstractNegotiationParty {
             arbitraryBid = generateRandomBid();
             try {
                 valueMetric = utilitySpace.getUtility(arbitraryBid);
-            } catch (Exception e)
-            {
+            } catch (Exception e) {
                 valueMetric = 0.0;
             }
         }
         while (valueMetric < utilityThreshold);
         return arbitraryBid;
+    }
+
+    private ActionWithBid returnAction() {
+        double time = getTimeLine().getTime();
+
+        double totalReceivedOffers = 0;
+        double averageReceivedUtility;
+        double minimumUtilityLimit;
+
+        for (ProposalAnalysis proposalAnalysis : receivedOffersList) {
+            totalReceivedOffers = totalReceivedOffers + proposalAnalysis.getUtilityValue();
+        }
+        averageReceivedUtility = totalReceivedOffers / receivedOffersList.size();
+        minimumUtilityLimit = ((utilitySpace.getUtility(highestBid) + averageReceivedUtility) / 2) * time;
+
+        if (minimumUtilityLimit < 0.67) {
+            minimumUtilityLimit = ((utilitySpace.getUtility(highestBid) + 0.8) / 2);
+        }
+
+        System.out.println(minimumUtilityLimit);
+        System.out.println(pastBids.getAverageUtility());
+        System.out.println(pastBids.getBestBidDetails());
+        System.out.println(pastBids.getHistory());
+
+        previousBid = generateRandomBidWithUtility(minimumUtilityLimit);
+        return new Offer(this.getPartyId(), previousBid);
+
     }
 
 }
