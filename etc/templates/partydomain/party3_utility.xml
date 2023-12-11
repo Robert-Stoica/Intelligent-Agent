@@ -1,4 +1,4 @@
-<utility_space> 
+<utility_space type="UNCERTAIN">
 <objective index="0" description="" name="Party" type="objective" etype="objective"> 
 <issue index="1" name="Food" vtype="discrete" type="discrete" etype="discrete"> 
 <item index="1" description="Buy bags of chips and party nuts for all guests." value="Chips and Nuts" cost="100.0" evaluation="20"> 
@@ -71,5 +71,24 @@ highest cost." value="Catering" cost="250.0" evaluation="10">
 </weight> 
 <weight index="6" value="0.09712901978071596"> 
 </weight> 
-</objective> 
+</objective>
+    <discount_factor value="1.0">
+    </discount_factor>
+    <reservation value="0.0">
+    </reservation>
+    <comparisons>
+        150
+    </comparisons>
+    <errors>
+        0
+    </errors>
+    <elicitation_cost>
+        0.001
+    </elicitation_cost>
+    <fixed_seed>
+        true
+    </fixed_seed>
+    <experimental>
+        false
+    </experimental>
 </utility_space> 

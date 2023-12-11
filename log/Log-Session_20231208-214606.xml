@@ -1,0 +1,9 @@
+<?xml version="1.0" ?><Session>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of Agent10@92:java.lang.RuntimeException: java.lang.IllegalStateException: There is no evaluator for issue 2: java.lang.IllegalStateException: There is no evaluator for issue 2: There is no evaluator for issue 2" currentTime="Fri Dec 08 21:46:06 GMT 2023" lastAction="null" bids="3" runtime="0.028142" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="UncertaintyAgentExample" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\UncertaintyAgentExample.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="OptimalBidderSimple" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.OptimalBidderSimple" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome></Session>

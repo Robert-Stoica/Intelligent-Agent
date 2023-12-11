@@ -1,0 +1,217 @@
+<?xml version="1.0" ?><Tournament>
+<NegotiationOutcome currentTime="Sun Dec 10 01:44:56 GMT 2023" timeOfAgreement="0.47540983606557374" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Your Dorm, Invitations: Plain, Music: MP3, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="75" runtime="0.83715" finalOutcome="Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Your Dorm, Invitations: Plain, Music: MP3, Cleanup: Water and Soap]" startingAgent="MaxOops@91" deadline="60rounds">
+<resultsOfAgent agent="MaxOops@91" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.6296044738089837" finalUtility="0.6296044738089837" discountedUtility="0.6296044738089837" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="MaxOops@92" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.8248246170529003" finalUtility="0.8248246170529003" discountedUtility="0.8248246170529003" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="MaxOops@93" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.8183402113214985" finalUtility="0.8183402113214985" discountedUtility="0.8183402113214985" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:44:57 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Party Room, Invitations: Plain, Music: Band, Cleanup: Special Equiment])" domain="etc/templates/partydomain/party_domain.xml" bids="162" runtime="1.3096539" finalOutcome="-" startingAgent="KLH@94" deadline="60rounds">
+<resultsOfAgent agent="KLH@94" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="MaxOops@95" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="MaxOops@96" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:44:59 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Party Room, Invitations: Plain, Music: Band, Cleanup: Special Equiment])" domain="etc/templates/partydomain/party_domain.xml" bids="158" runtime="1.3363815" finalOutcome="-" startingAgent="Agent10@97" deadline="60rounds">
+<resultsOfAgent agent="Agent10@97" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="MaxOops@98" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="MaxOops@99" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:00 GMT 2023" lastAction="(Offer  bid:Bid[Food: Handmade Food, Drinks: Non-Alcoholic, Location: Party Tent, Invitations: Plain, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="163" runtime="1.3662533" finalOutcome="-" startingAgent="MaxOops@100" deadline="60rounds">
+<resultsOfAgent agent="MaxOops@100" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="KLH@101" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="MaxOops@102" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:02 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Party Room, Invitations: Plain, Music: Band, Cleanup: Special Equiment])" domain="etc/templates/partydomain/party_domain.xml" bids="180" runtime="1.0238467" finalOutcome="-" startingAgent="KLH@103" deadline="60rounds">
+<resultsOfAgent agent="KLH@103" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="KLH@104" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="MaxOops@105" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:03 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Party Tent, Invitations: Plain, Music: DJ, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="178" runtime="0.9897118" finalOutcome="-" startingAgent="Agent10@106" deadline="60rounds">
+<resultsOfAgent agent="Agent10@106" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="KLH@107" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="MaxOops@108" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:04 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Party Room, Invitations: Plain, Music: Band, Cleanup: Special Equiment])" domain="etc/templates/partydomain/party_domain.xml" bids="174" runtime="1.3866928" finalOutcome="-" startingAgent="MaxOops@109" deadline="60rounds">
+<resultsOfAgent agent="MaxOops@109" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@110" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="MaxOops@111" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:06 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Party Room, Invitations: Plain, Music: Band, Cleanup: Special Equiment])" domain="etc/templates/partydomain/party_domain.xml" bids="171" runtime="1.0675806" finalOutcome="-" startingAgent="KLH@112" deadline="60rounds">
+<resultsOfAgent agent="KLH@112" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@113" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="MaxOops@114" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:07 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Party Room, Invitations: Plain, Music: Band, Cleanup: Special Equiment])" domain="etc/templates/partydomain/party_domain.xml" bids="179" runtime="1.0480969" finalOutcome="-" startingAgent="Agent10@115" deadline="60rounds">
+<resultsOfAgent agent="Agent10@115" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@116" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="MaxOops@117" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:09 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Your Dorm, Invitations: Plain, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="179" runtime="1.5776916" finalOutcome="-" startingAgent="MaxOops@118" deadline="60rounds">
+<resultsOfAgent agent="MaxOops@118" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="MaxOops@119" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="KLH@120" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:10 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Your Dorm, Invitations: Plain, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="180" runtime="0.9007193" finalOutcome="-" startingAgent="KLH@121" deadline="60rounds">
+<resultsOfAgent agent="KLH@121" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="MaxOops@122" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="KLH@123" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:11 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Your Dorm, Invitations: Plain, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="178" runtime="1.0713328" finalOutcome="-" startingAgent="Agent10@124" deadline="60rounds">
+<resultsOfAgent agent="Agent10@124" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="MaxOops@125" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="KLH@126" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:12 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Your Dorm, Invitations: Plain, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="180" runtime="0.9879826" finalOutcome="-" startingAgent="MaxOops@127" deadline="60rounds">
+<resultsOfAgent agent="MaxOops@127" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="KLH@128" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="KLH@129" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:12 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Your Dorm, Invitations: Plain, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="180" runtime="0.321807" finalOutcome="-" startingAgent="KLH@130" deadline="60rounds">
+<resultsOfAgent agent="KLH@130" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="KLH@131" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="KLH@132" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:13 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Your Dorm, Invitations: Plain, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="180" runtime="0.3671119" finalOutcome="-" startingAgent="Agent10@133" deadline="60rounds">
+<resultsOfAgent agent="Agent10@133" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="KLH@134" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="KLH@135" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:14 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Your Dorm, Invitations: Plain, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="175" runtime="1.1327636" finalOutcome="-" startingAgent="MaxOops@136" deadline="60rounds">
+<resultsOfAgent agent="MaxOops@136" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@137" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="KLH@138" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:15 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Your Dorm, Invitations: Plain, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="177" runtime="0.4081815" finalOutcome="-" startingAgent="KLH@139" deadline="60rounds">
+<resultsOfAgent agent="KLH@139" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@140" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="KLH@141" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:15 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Your Dorm, Invitations: Plain, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="180" runtime="0.4323281" finalOutcome="-" startingAgent="Agent10@142" deadline="60rounds">
+<resultsOfAgent agent="Agent10@142" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@143" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="KLH@144" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:16 GMT 2023" timeOfAgreement="0.32786885245901637" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Party Room, Invitations: Plain, Music: Band, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="54" runtime="0.3772949" finalOutcome="Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Party Room, Invitations: Plain, Music: Band, Cleanup: Water and Soap]" startingAgent="MaxOops@145" deadline="60rounds">
+<resultsOfAgent agent="MaxOops@145" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.7088800117474567" finalUtility="0.7088800117474567" discountedUtility="0.7088800117474567" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="MaxOops@146" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.8761041943548443" finalUtility="0.8761041943548443" discountedUtility="0.8761041943548443" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@147" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.Agent10" userUtility="0.7460922880531652" finalUtility="0.7460922880531652" discountedUtility="0.7460922880531652" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:17 GMT 2023" lastAction="(Accept  bid:Bid[Food: Catering, Drinks: Non-Alcoholic, Location: Your Dorm, Invitations: Plain, Music: MP3, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="175" runtime="0.8675101" finalOutcome="-" startingAgent="KLH@148" deadline="60rounds">
+<resultsOfAgent agent="KLH@148" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="MaxOops@149" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@150" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:18 GMT 2023" lastAction="(Accept  bid:Bid[Food: Handmade Food, Drinks: Handmade Cocktails, Location: Your Dorm, Invitations: Custom, Printed, Music: Band, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="176" runtime="0.9830218" finalOutcome="-" startingAgent="Agent10@151" deadline="60rounds">
+<resultsOfAgent agent="Agent10@151" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="MaxOops@152" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@153" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:19 GMT 2023" lastAction="(Accept  bid:Bid[Food: Catering, Drinks: Handmade Cocktails, Location: Your Dorm, Invitations: Plain, Music: MP3, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="175" runtime="0.9879279" finalOutcome="-" startingAgent="MaxOops@154" deadline="60rounds">
+<resultsOfAgent agent="MaxOops@154" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="KLH@155" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@156" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:20 GMT 2023" lastAction="(Accept  bid:Bid[Food: Catering, Drinks: Handmade Cocktails, Location: Your Dorm, Invitations: Plain, Music: MP3, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="178" runtime="0.3577919" finalOutcome="-" startingAgent="KLH@157" deadline="60rounds">
+<resultsOfAgent agent="KLH@157" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="KLH@158" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@159" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:20 GMT 2023" lastAction="(Accept  bid:Bid[Food: Catering, Drinks: Handmade Cocktails, Location: Your Dorm, Invitations: Plain, Music: MP3, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="177" runtime="0.4833338" finalOutcome="-" startingAgent="Agent10@160" deadline="60rounds">
+<resultsOfAgent agent="Agent10@160" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="KLH@161" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@162" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:21 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Party Tent, Invitations: Plain, Music: MP3, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="175" runtime="1.0876582" finalOutcome="-" startingAgent="MaxOops@163" deadline="60rounds">
+<resultsOfAgent agent="MaxOops@163" agentDesc="ANAC2016" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2016.maxoops.MaxOops" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@164" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@165" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:22 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Ballroom, Invitations: Plain, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="176" runtime="0.4090773" finalOutcome="-" startingAgent="KLH@166" deadline="60rounds">
+<resultsOfAgent agent="KLH@166" agentDesc="ANAC2011" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2011.HardHeaded.KLH" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@167" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@168" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:23 GMT 2023" lastAction="(Accept  bid:Bid[Food: Catering, Drinks: Non-Alcoholic, Location: Ballroom, Invitations: Plain, Music: MP3, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="179" runtime="0.5275665" finalOutcome="-" startingAgent="Agent10@169" deadline="60rounds">
+<resultsOfAgent agent="Agent10@169" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@170" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@171" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome></Tournament>

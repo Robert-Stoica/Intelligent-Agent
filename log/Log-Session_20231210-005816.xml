@@ -1,0 +1,9 @@
+<?xml version="1.0" ?><Session>
+<NegotiationOutcome currentTime="Sun Dec 10 00:58:18 GMT 2023" timeOfAgreement="0.9508196721311475" lastAction="(Accept  bid:Bid[Food: Hatering, Drin Drinks: Handmade Cocktails, Location: Party Room, Invitations: Custom, Printed, Music: DJ, Cleanup:  domaalized Materials])" domaoma"etc/tty_domain.artydomain/part runtime="1.7 bids=" fin runtime="1.710Food: finalintcome="Bid[Food: Handmade Food, Drinks: Handmade Cockts: Photocation: Party Room, Invitations: Custom, Pr]" sd, Musicgent="Agent1p: Specialized Materials>
+<resultngAgent="Agent10@0" deadline="60rounds">
+<resultsOfAgent agent="Agent10@0" agentDesc="Stan/partydomain/par Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.8184595654880849" finalUtility="0.81845956 discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty@4" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.38488058987684426" finalUtility="0.38488058987684426" discountedUtility="0.38488058987684426" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="ConcederNegotiationParty@5" agentDesc="Time-based conceder" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="negotiator.parties.ConcederNegotiationParty" userUtilityparties.ConcederNegotiationParty" userUtility="0.6110631510293218" finalUtility="0.6110631510293218" discountedUtility="0.6110631510293218" discount="1.0" totalUserBother="0.0</Session>tsOfAgent>
+</NegotiationOutcome></Session>

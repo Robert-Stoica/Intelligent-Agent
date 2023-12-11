@@ -1,0 +1,9 @@
+<?xml version="1.0" ?><Session>
+<NegotiationOutcome currentTime="Fri Dec 08 20:37:16 GMT 2023" lastAction="(Offer  bid:Bid[Food: Handmade Food, Drinks: Handmade Cocktails, Location: Ballroom, Invitations: Plain, Music: MP3, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="152" runtime="1.0844883" finalOutcome="-" startingAgent="Agent10@3" deadline="60rounds">
+<resultsOfAgent agent="Agent10@3" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="-0.02100000000000001" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.02100000000000001">
+</resultsOfAgent>
+<resultsOfAgent agent="PokerFace@4" agentDesc="ANAC2015" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2015.pokerface.PokerFace" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="TUDMixedStrategyAgent@5" agentDesc="ANAC2015" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2015.TUDMixedStrategyAgent.TUDMixedStrategyAgent" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome></Session>

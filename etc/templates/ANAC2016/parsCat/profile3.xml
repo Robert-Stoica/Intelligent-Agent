@@ -1,120 +1,135 @@
-<utility_space> 
-<objective index="0" description="" name="smart_ energy_ grids" type="objective" etype="objective"> 
-<issue index="1" name="0000-0300" vtype="discrete" type="discrete" etype="discrete"> 
-<item index="1" value="0kW" evaluation="0"> 
+<utility_space type="UNCERTAIN"> 
+<objective name="smart_ energy_ grids" index="0" description="" etype="objective" type="objective"> 
+<issue vtype="discrete" name="0000-0300" index="1" etype="discrete" type="discrete"> 
+<item evaluation="0.0" index="1" value="0kW"> 
 </item> 
-<item index="2" value="25kW" evaluation="2"> 
+<item evaluation="2.0" index="2" value="25kW"> 
 </item> 
-<item index="3" value="50kW" evaluation="3"> 
+<item evaluation="3.0" index="3" value="50kW"> 
 </item> 
-<item index="4" value="75kW" evaluation="4"> 
+<item evaluation="4.0" index="4" value="75kW"> 
 </item> 
-<item index="5" value="100kW" evaluation="5"> 
-</item> 
-</issue> 
-<issue index="2" name="0300-0600" vtype="discrete" type="discrete" etype="discrete"> 
-<item index="1" value="0kW" evaluation="0"> 
-</item> 
-<item index="2" value="25kW" evaluation="2"> 
-</item> 
-<item index="3" value="50kW" evaluation="3"> 
-</item> 
-<item index="4" value="75kW" evaluation="4"> 
-</item> 
-<item index="5" value="100kW" evaluation="5"> 
+<item evaluation="5.0" index="5" value="100kW"> 
 </item> 
 </issue> 
-<issue index="3" name="0600-0900" vtype="discrete" type="discrete" etype="discrete"> 
-<item index="1" value="0kW" evaluation="0"> 
+<issue vtype="discrete" name="0300-0600" index="2" etype="discrete" type="discrete"> 
+<item evaluation="0.0" index="1" value="0kW"> 
 </item> 
-<item index="2" value="25kW" evaluation="2"> 
+<item evaluation="2.0" index="2" value="25kW"> 
 </item> 
-<item index="3" value="50kW" evaluation="3"> 
+<item evaluation="3.0" index="3" value="50kW"> 
 </item> 
-<item index="4" value="75kW" evaluation="4"> 
+<item evaluation="4.0" index="4" value="75kW"> 
 </item> 
-<item index="5" value="100kW" evaluation="5"> 
-</item> 
-</issue> 
-<issue index="4" name="0900-1200" vtype="discrete" type="discrete" etype="discrete"> 
-<item index="1" value="0kW" evaluation="0"> 
-</item> 
-<item index="2" value="25kW" evaluation="2"> 
-</item> 
-<item index="3" value="50kW" evaluation="3"> 
-</item> 
-<item index="4" value="75kW" evaluation="4"> 
-</item> 
-<item index="5" value="100kW" evaluation="5"> 
+<item evaluation="5.0" index="5" value="100kW"> 
 </item> 
 </issue> 
-<issue index="5" name="1200-1500" vtype="discrete" type="discrete" etype="discrete"> 
-<item index="1" value="0kW" evaluation="0"> 
+<issue vtype="discrete" name="0600-0900" index="3" etype="discrete" type="discrete"> 
+<item evaluation="0.0" index="1" value="0kW"> 
 </item> 
-<item index="2" value="25kW" evaluation="2"> 
+<item evaluation="2.0" index="2" value="25kW"> 
 </item> 
-<item index="3" value="50kW" evaluation="3"> 
+<item evaluation="3.0" index="3" value="50kW"> 
 </item> 
-<item index="4" value="75kW" evaluation="4"> 
+<item evaluation="4.0" index="4" value="75kW"> 
 </item> 
-<item index="5" value="100kW" evaluation="5"> 
-</item> 
-</issue> 
-<issue index="6" name="1500-1800" vtype="discrete" type="discrete" etype="discrete"> 
-<item index="1" value="0kW" evaluation="0"> 
-</item> 
-<item index="2" value="25kW" evaluation="2"> 
-</item> 
-<item index="3" value="50kW" evaluation="3"> 
-</item> 
-<item index="4" value="75kW" evaluation="4"> 
-</item> 
-<item index="5" value="100kW" evaluation="5"> 
+<item evaluation="5.0" index="5" value="100kW"> 
 </item> 
 </issue> 
-<issue index="7" name="1800-2100" vtype="discrete" type="discrete" etype="discrete"> 
-<item index="1" value="0kW" evaluation="0"> 
+<issue vtype="discrete" name="0900-1200" index="4" etype="discrete" type="discrete"> 
+<item evaluation="0.0" index="1" value="0kW"> 
 </item> 
-<item index="2" value="25kW" evaluation="2"> 
+<item evaluation="2.0" index="2" value="25kW"> 
 </item> 
-<item index="3" value="50kW" evaluation="3"> 
+<item evaluation="3.0" index="3" value="50kW"> 
 </item> 
-<item index="4" value="75kW" evaluation="4"> 
+<item evaluation="4.0" index="4" value="75kW"> 
 </item> 
-<item index="5" value="100kW" evaluation="5"> 
-</item> 
-</issue> 
-<issue index="8" name="2100-0000" vtype="discrete" type="discrete" etype="discrete"> 
-<item index="1" value="0kW" evaluation="0"> 
-</item> 
-<item index="2" value="25kW" evaluation="2"> 
-</item> 
-<item index="3" value="50kW" evaluation="3"> 
-</item> 
-<item index="4" value="75kW" evaluation="4"> 
-</item> 
-<item index="5" value="100kW" evaluation="5"> 
+<item evaluation="5.0" index="5" value="100kW"> 
 </item> 
 </issue> 
-<weight index="1" value="0.0233451404160976"> 
+<issue vtype="discrete" name="1200-1500" index="5" etype="discrete" type="discrete"> 
+<item evaluation="0.0" index="1" value="0kW"> 
+</item> 
+<item evaluation="2.0" index="2" value="25kW"> 
+</item> 
+<item evaluation="3.0" index="3" value="50kW"> 
+</item> 
+<item evaluation="4.0" index="4" value="75kW"> 
+</item> 
+<item evaluation="5.0" index="5" value="100kW"> 
+</item> 
+</issue> 
+<issue vtype="discrete" name="1500-1800" index="6" etype="discrete" type="discrete"> 
+<item evaluation="0.0" index="1" value="0kW"> 
+</item> 
+<item evaluation="2.0" index="2" value="25kW"> 
+</item> 
+<item evaluation="3.0" index="3" value="50kW"> 
+</item> 
+<item evaluation="4.0" index="4" value="75kW"> 
+</item> 
+<item evaluation="5.0" index="5" value="100kW"> 
+</item> 
+</issue> 
+<issue vtype="discrete" name="1800-2100" index="7" etype="discrete" type="discrete"> 
+<item evaluation="0.0" index="1" value="0kW"> 
+</item> 
+<item evaluation="2.0" index="2" value="25kW"> 
+</item> 
+<item evaluation="3.0" index="3" value="50kW"> 
+</item> 
+<item evaluation="4.0" index="4" value="75kW"> 
+</item> 
+<item evaluation="5.0" index="5" value="100kW"> 
+</item> 
+</issue> 
+<issue vtype="discrete" name="2100-0000" index="8" etype="discrete" type="discrete"> 
+<item evaluation="0.0" index="1" value="0kW"> 
+</item> 
+<item evaluation="2.0" index="2" value="25kW"> 
+</item> 
+<item evaluation="3.0" index="3" value="50kW"> 
+</item> 
+<item evaluation="4.0" index="4" value="75kW"> 
+</item> 
+<item evaluation="5.0" index="5" value="100kW"> 
+</item> 
+</issue> 
+<weight index="1" value="0.02328265504274254"> 
 </weight> 
-<weight index="2" value="0.05343240053917455"> 
+<weight index="2" value="0.053373323856554716"> 
 </weight> 
-<weight index="3" value="0.10855186022768051"> 
+<weight index="3" value="0.10852080628849983"> 
 </weight> 
-<weight index="4" value="0.12949980203141964"> 
+<weight index="4" value="0.12950756403843888"> 
 </weight> 
-<weight index="5" value="0.16444770586168042"> 
+<weight index="5" value="0.16450175597582106"> 
 </weight> 
-<weight index="6" value="0.221384364666749"> 
+<weight index="6" value="0.2214851339675805"> 
 </weight> 
-<weight index="7" value="0.18432648666623544"> 
+<weight index="7" value="0.1842601076705492"> 
 </weight> 
-<weight index="8" value="0.11501223959096284"> 
+<weight index="8" value="0.11506865315981323"> 
 </weight> 
 </objective> 
 <discount_factor value="1.0"> 
 </discount_factor> 
 <reservation value="0.0"> 
 </reservation> 
+<comparisons> 
+150 
+</comparisons> 
+<errors> 
+0 
+</errors> 
+<elicitation_cost> 
+0.001 
+</elicitation_cost> 
+<fixed_seed> 
+true 
+</fixed_seed> 
+<experimental> 
+false 
+</experimental> 
 </utility_space> 

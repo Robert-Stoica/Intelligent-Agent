@@ -1,0 +1,9 @@
+<?xml version="1.0" ?><Session>
+<NegotiationOutcome currentTime="Fri Dec 08 19:09:41 GMT 2023" timeOfAgreement="0.9508196721311475" lastAction="(Accept  bid:Bid[Food: Finger-Food, Drinks: Handmade Cocktails, Location: Your Dorm, Invitations: Plain, Music: MP3, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="171" runtime="4.8968674" finalOutcome="Bid[Food: Finger-Food, Drinks: Handmade Cocktails, Location: Your Dorm, Invitations: Plain, Music: MP3, Cleanup: Water and Soap]" startingAgent="Agent10@81" deadline="60rounds">
+<resultsOfAgent agent="Agent10@81" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.5465500617607801" finalUtility="0.5665500617607802" discountedUtility="0.5665500617607802" discount="1.0" totalUserBother="0.02000000000000001">
+</resultsOfAgent>
+<resultsOfAgent agent="AgentHP@82" agentDesc="ANAC2015" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2015.AgentHP.AgentHP" userUtility="0.8486224190202886" finalUtility="0.8486224190202886" discountedUtility="0.8486224190202886" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="IAMhaggler@83" agentDesc="ANAC2010" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2010.Southampton.IAMhaggler" userUtility="0.7523232122339405" finalUtility="0.7523232122339405" discountedUtility="0.7523232122339405" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome></Session>

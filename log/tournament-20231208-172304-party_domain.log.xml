@@ -1,0 +1,49 @@
+<?xml version="1.0" ?><Tournament>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of FuzzyAgent@7:java.lang.ArrayIndexOutOfBoundsException: Index 101 out of bounds for length 101: Index 101 out of bounds for length 101" currentTime="Fri Dec 08 17:23:05 GMT 2023" lastAction="(Offer  bid:Bid[Food: 12.031965021622975])" bids="101" runtime="0.426406" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Sobut" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2014.Sobut.Sobut" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of Agent10@11:java.lang.NullPointerException: null" currentTime="Fri Dec 08 17:23:05 GMT 2023" lastAction="(Offer  bid:Bid[Food: 12.031965021622975])" bids="2" runtime="0.0237952" deadline="60rounds">
+<resultsOfAgent agent="Sobut" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2014.Sobut.Sobut" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of FuzzyAgent@12:java.lang.ArrayIndexOutOfBoundsException: Index 102 out of bounds for length 101: Index 102 out of bounds for length 101" currentTime="Fri Dec 08 17:23:06 GMT 2023" lastAction="null" bids="101" runtime="0.3351306" deadline="60rounds">
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Sobut" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2014.Sobut.Sobut" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of Agent10@16:java.lang.NullPointerException: null" currentTime="Fri Dec 08 17:23:06 GMT 2023" lastAction="(Offer  bid:Bid[Food: 12.375707337390438])" bids="1" runtime="0.0153924" deadline="60rounds">
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Sobut" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2014.Sobut.Sobut" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of FuzzyAgent@20:java.lang.ArrayIndexOutOfBoundsException: Index 102 out of bounds for length 101: Index 102 out of bounds for length 101" currentTime="Fri Dec 08 17:23:06 GMT 2023" lastAction="(Offer  bid:Bid[Food: Catering, Drinks: Catering, Location: Ballroom, Invitations: Plain, Music: DJ, Cleanup: Water and Soap])" bids="102" runtime="0.3235825" deadline="60rounds">
+<resultsOfAgent agent="Sobut" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2014.Sobut.Sobut" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of Agent10@21:java.lang.NullPointerException: null" currentTime="Fri Dec 08 17:23:06 GMT 2023" lastAction="null" bids="2" runtime="0.0178958" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Sobut" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2014.Sobut.Sobut" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome></Tournament>

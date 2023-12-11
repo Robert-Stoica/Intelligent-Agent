@@ -1,0 +1,9 @@
+<?xml version="1.0" ?><Session>
+<NegotiationOutcome currentTime="Fri Dec 08 17:21:46 GMT 2023" timeOfAgreement="0.8852459016393442" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Your Dorm, Invitations: Plain, Music: MP3, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="139" runtime="1.0386464" finalOutcome="Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Your Dorm, Invitations: Plain, Music: MP3, Cleanup: Water and Soap]" startingAgent="Agent10@3" deadline="60rounds">
+<resultsOfAgent agent="Agent10@3" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.6096044738089836" finalUtility="0.6296044738089837" discountedUtility="0.6296044738089837" discount="1.0" totalUserBother="0.02000000000000001">
+</resultsOfAgent>
+<resultsOfAgent agent="PokerFace@4" agentDesc="ANAC2015" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2015.pokerface.PokerFace" userUtility="0.8248246170529003" finalUtility="0.8248246170529003" discountedUtility="0.8248246170529003" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="TUDMixedStrategyAgent@5" agentDesc="ANAC2015" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2015.TUDMixedStrategyAgent.TUDMixedStrategyAgent" userUtility="0.8183402113214985" finalUtility="0.8183402113214985" discountedUtility="0.8183402113214985" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome></Session>

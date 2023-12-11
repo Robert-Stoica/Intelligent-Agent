@@ -1,0 +1,217 @@
+<?xml version="1.0" ?><Tournament>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 17:26:23 GMT 2023" lastAction="null" bids="141" runtime="0.3877417" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 17:26:23 GMT 2023" lastAction="(Offer  bid:Bid[Food: Handmade Food, Drinks: Handmade Cocktails, Location: Party Tent, Invitations: Custom, Handmade, Music: DJ, Cleanup: Special Equiment])" bids="166" runtime="0.3845107" deadline="60rounds">
+<resultsOfAgent agent="UncertaintyAgentExample" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\UncertaintyAgentExample.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Fri Dec 08 17:26:24 GMT 2023" timeOfAgreement="0.9508196721311475" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Party Room, Invitations: Custom, Printed, Music: DJ, Cleanup: Specialized Materials])" domain="etc/templates/partydomain/party_domain.xml" bids="115" runtime="0.341277" finalOutcome="Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Party Room, Invitations: Custom, Printed, Music: DJ, Cleanup: Specialized Materials]" startingAgent="BoulwareNegotiationParty@111" deadline="60rounds">
+<resultsOfAgent agent="BoulwareNegotiationParty@111" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.8815139775362884" finalUtility="0.8815139775362884" discountedUtility="0.8815139775362884" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@112" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.6839938461633399" finalUtility="0.6849938461633399" discountedUtility="0.6849938461633399" discount="1.0" totalUserBother="0.001">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@113" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.Agent10" userUtility="0.7156903495694148" finalUtility="0.7166903495694148" discountedUtility="0.7166903495694148" discount="1.0" totalUserBother="0.001">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 17:26:24 GMT 2023" lastAction="null" bids="177" runtime="0.4465106" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="UncertaintyAgentExample" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\UncertaintyAgentExample.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 17:26:25 GMT 2023" lastAction="(Offer  bid:Bid[Food: Finger-Food, Drinks: Beer Only, Location: Ballroom, Invitations: Custom, Printed, Music: MP3, Cleanup: Specialized Materials])" bids="173" runtime="0.4874313" deadline="60rounds">
+<resultsOfAgent agent="UncertaintyAgentExample" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\UncertaintyAgentExample.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="UncertaintyAgentExample" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\UncertaintyAgentExample.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 17:26:25 GMT 2023" lastAction="(Offer  bid:Bid[Food: Handmade Food, Drinks: Beer Only, Location: Party Room, Invitations: Photo, Music: Band, Cleanup: Specialized Materials])" bids="116" runtime="0.3887885" deadline="60rounds">
+<resultsOfAgent agent="BoulwareNegotiationParty" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="UncertaintyAgentExample" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\UncertaintyAgentExample.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Fri Dec 08 17:26:26 GMT 2023" lastAction="(Offer  bid:Bid[Food: Catering, Drinks: Catering, Location: Party Tent, Invitations: Photo, Music: Band, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="149" runtime="0.3940028" finalOutcome="-" startingAgent="Agent10@123" deadline="60rounds">
+<resultsOfAgent agent="Agent10@123" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="-0.002" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.002">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty@124" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@125" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.Agent10" userUtility="-0.001" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.001">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 17:26:26 GMT 2023" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Your Dorm, Invitations: Photo, Music: MP3, Cleanup: Specialized Materials])" bids="168" runtime="0.3538925" deadline="60rounds">
+<resultsOfAgent agent="UncertaintyAgentExample" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\UncertaintyAgentExample.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Fri Dec 08 17:26:27 GMT 2023" timeOfAgreement="0.9016393442622951" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Party Room, Invitations: Custom, Printed, Music: DJ, Cleanup: Specialized Materials])" domain="etc/templates/partydomain/party_domain.xml" bids="134" runtime="0.3691948" finalOutcome="Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Party Room, Invitations: Custom, Printed, Music: DJ, Cleanup: Specialized Materials]" startingAgent="BoulwareNegotiationParty@129" deadline="60rounds">
+<resultsOfAgent agent="BoulwareNegotiationParty@129" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.8815139775362884" finalUtility="0.8815139775362884" discountedUtility="0.8815139775362884" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty@130" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.6849938461633399" finalUtility="0.6849938461633399" discountedUtility="0.6849938461633399" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@131" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.Agent10" userUtility="0.6966903495694148" finalUtility="0.7166903495694148" discountedUtility="0.7166903495694148" discount="1.0" totalUserBother="0.02000000000000001">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Fri Dec 08 17:26:27 GMT 2023" timeOfAgreement="0.6065573770491803" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Party Tent, Invitations: Photo, Music: MP3, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="73" runtime="0.2640732" finalOutcome="Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Party Tent, Invitations: Photo, Music: MP3, Cleanup: Hired Help]" startingAgent="Agent10@132" deadline="60rounds">
+<resultsOfAgent agent="Agent10@132" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.6678394555638517" finalUtility="0.6688394555638517" discountedUtility="0.6688394555638517" discount="1.0" totalUserBother="0.001">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@133" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.47389911622345" finalUtility="0.47489911622345" discountedUtility="0.47489911622345" discount="1.0" totalUserBother="0.001">
+</resultsOfAgent>
+<resultsOfAgent agent="UncertaintyAgentExample@134" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="0.9143882022953573" finalUtility="0.9163882022953573" discountedUtility="0.9163882022953573" discount="1.0" totalUserBother="0.002">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 17:26:28 GMT 2023" lastAction="(Offer  bid:Bid[Food: Finger-Food, Drinks: Beer Only, Location: Your Dorm, Invitations: Custom, Printed, Music: DJ, Cleanup: Water and Soap])" bids="175" runtime="0.4437712" deadline="60rounds">
+<resultsOfAgent agent="UncertaintyAgentExample" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\UncertaintyAgentExample.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="UncertaintyAgentExample" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\UncertaintyAgentExample.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 17:26:28 GMT 2023" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Ballroom, Invitations: Custom, Handmade, Music: Band, Cleanup: Special Equiment])" bids="139" runtime="0.3319427" deadline="60rounds">
+<resultsOfAgent agent="BoulwareNegotiationParty" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="UncertaintyAgentExample" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\UncertaintyAgentExample.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Fri Dec 08 17:26:29 GMT 2023" lastAction="(Offer  bid:Bid[Food: Handmade Food, Drinks: Catering, Location: Party Room, Invitations: Custom, Printed, Music: MP3, Cleanup: Special Equiment])" domain="etc/templates/partydomain/party_domain.xml" bids="180" runtime="0.4403158" finalOutcome="-" startingAgent="Agent10@141" deadline="60rounds">
+<resultsOfAgent agent="Agent10@141" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="-0.05400000000000004" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.05400000000000004">
+</resultsOfAgent>
+<resultsOfAgent agent="UncertaintyAgentExample@142" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.010000000000000002" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.010000000000000002">
+</resultsOfAgent>
+<resultsOfAgent agent="UncertaintyAgentExample@143" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.10800000000000008" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.10800000000000008">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Fri Dec 08 17:26:30 GMT 2023" lastAction="(Offer  bid:Bid[Food: Handmade Food, Drinks: Handmade Cocktails, Location: Your Dorm, Invitations: Custom, Printed, Music: DJ, Cleanup: Special Equiment])" domain="etc/templates/partydomain/party_domain.xml" bids="180" runtime="0.6252684" finalOutcome="-" startingAgent="UncertaintyAgentExample@144" deadline="60rounds">
+<resultsOfAgent agent="UncertaintyAgentExample@144" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.10300000000000008" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.10300000000000008">
+</resultsOfAgent>
+<resultsOfAgent agent="UncertaintyAgentExample@145" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.10700000000000008" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.10700000000000008">
+</resultsOfAgent>
+<resultsOfAgent agent="UncertaintyAgentExample@146" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.10400000000000008" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.10400000000000008">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Fri Dec 08 17:26:30 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Party Tent, Invitations: Custom, Printed, Music: DJ, Cleanup: Special Equiment])" domain="etc/templates/partydomain/party_domain.xml" bids="143" runtime="0.4302764" finalOutcome="-" startingAgent="BoulwareNegotiationParty@147" deadline="60rounds">
+<resultsOfAgent agent="BoulwareNegotiationParty@147" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="UncertaintyAgentExample@148" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.04000000000000003" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.04000000000000003">
+</resultsOfAgent>
+<resultsOfAgent agent="UncertaintyAgentExample@149" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.060000000000000046" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.060000000000000046">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Fri Dec 08 17:26:31 GMT 2023" timeOfAgreement="0.9672131147540983" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Party Tent, Invitations: Photo, Music: Band, Cleanup: Special Equiment])" domain="etc/templates/partydomain/party_domain.xml" bids="145" runtime="0.4409913" finalOutcome="Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Party Tent, Invitations: Photo, Music: Band, Cleanup: Special Equiment]" startingAgent="Agent10@150" deadline="60rounds">
+<resultsOfAgent agent="Agent10@150" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.554457392559787" finalUtility="0.605457392559787" discountedUtility="0.605457392559787" discount="1.0" totalUserBother="0.05100000000000004">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty@151" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.4143647415068881" finalUtility="0.4143647415068881" discountedUtility="0.4143647415068881" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="UncertaintyAgentExample@152" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="0.906938287397115" finalUtility="0.908938287397115" discountedUtility="0.908938287397115" discount="1.0" totalUserBother="0.002">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Fri Dec 08 17:26:32 GMT 2023" timeOfAgreement="0.9836065573770492" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Beer Only, Location: Ballroom, Invitations: Custom, Printed, Music: MP3, Cleanup: Special Equiment])" domain="etc/templates/partydomain/party_domain.xml" bids="173" runtime="0.5475123" finalOutcome="Bid[Food: Chips and Nuts, Drinks: Beer Only, Location: Ballroom, Invitations: Custom, Printed, Music: MP3, Cleanup: Special Equiment]" startingAgent="UncertaintyAgentExample@153" deadline="60rounds">
+<resultsOfAgent agent="UncertaintyAgentExample@153" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="0.6933257237870177" finalUtility="0.7973257237870178" discountedUtility="0.7973257237870178" discount="1.0" totalUserBother="0.10400000000000008">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty@154" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.4195475102424335" finalUtility="0.4195475102424335" discountedUtility="0.4195475102424335" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="UncertaintyAgentExample@155" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="0.7356562421903855" finalUtility="0.7776562421903855" discountedUtility="0.7776562421903855" discount="1.0" totalUserBother="0.04200000000000003">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Fri Dec 08 17:26:32 GMT 2023" timeOfAgreement="0.9344262295081968" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Your Dorm, Invitations: Plain, Music: Band, Cleanup: Special Equiment])" domain="etc/templates/partydomain/party_domain.xml" bids="164" runtime="0.3334438" finalOutcome="Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Your Dorm, Invitations: Plain, Music: Band, Cleanup: Special Equiment]" startingAgent="BoulwareNegotiationParty@156" deadline="60rounds">
+<resultsOfAgent agent="BoulwareNegotiationParty@156" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.5328700003202359" finalUtility="0.5328700003202359" discountedUtility="0.5328700003202359" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty@157" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.5682198447341437" finalUtility="0.5682198447341437" discountedUtility="0.5682198447341437" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="UncertaintyAgentExample@158" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="0.8417370612587931" finalUtility="0.8837370612587931" discountedUtility="0.8837370612587931" discount="1.0" totalUserBother="0.04200000000000003">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 17:26:33 GMT 2023" lastAction="null" bids="55" runtime="0.1758219" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Fri Dec 08 17:26:33 GMT 2023" timeOfAgreement="0.9836065573770492" lastAction="(Accept  bid:Bid[Food: Handmade Food, Drinks: Beer Only, Location: Your Dorm, Invitations: Photo, Music: DJ, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="172" runtime="0.3575163" finalOutcome="Bid[Food: Handmade Food, Drinks: Beer Only, Location: Your Dorm, Invitations: Photo, Music: DJ, Cleanup: Hired Help]" startingAgent="UncertaintyAgentExample@162" deadline="60rounds">
+<resultsOfAgent agent="UncertaintyAgentExample@162" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="0.6710657367438733" finalUtility="0.7150657367438733" discountedUtility="0.7150657367438733" discount="1.0" totalUserBother="0.04400000000000003">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@163" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.19126883589095012" finalUtility="0.24926883589095017" discountedUtility="0.24926883589095017" discount="1.0" totalUserBother="0.058000000000000045">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty@164" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.6366031473227605" finalUtility="0.6366031473227605" discountedUtility="0.6366031473227605" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 17:26:34 GMT 2023" lastAction="(Accept  bid:Bid[Food: Catering, Drinks: Non-Alcoholic, Location: Party Room, Invitations: Custom, Printed, Music: MP3, Cleanup: Specialized Materials])" bids="140" runtime="0.3004172" deadline="60rounds">
+<resultsOfAgent agent="BoulwareNegotiationParty" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 17:26:34 GMT 2023" lastAction="null" bids="168" runtime="0.395819" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="UncertaintyAgentExample" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\UncertaintyAgentExample.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Fri Dec 08 17:26:35 GMT 2023" lastAction="(Accept  bid:Bid[Food: Catering, Drinks: Beer Only, Location: Party Room, Invitations: Custom, Printed, Music: DJ, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="176" runtime="0.4904588" finalOutcome="-" startingAgent="UncertaintyAgentExample@171" deadline="60rounds">
+<resultsOfAgent agent="UncertaintyAgentExample@171" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.05000000000000004" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.05000000000000004">
+</resultsOfAgent>
+<resultsOfAgent agent="UncertaintyAgentExample@172" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.10800000000000008" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.10800000000000008">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty@173" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Fri Dec 08 17:26:35 GMT 2023" timeOfAgreement="0.9016393442622951" lastAction="(Accept  bid:Bid[Food: Finger-Food, Drinks: Non-Alcoholic, Location: Party Tent, Invitations: Photo, Music: DJ, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="130" runtime="0.313568" finalOutcome="Bid[Food: Finger-Food, Drinks: Non-Alcoholic, Location: Party Tent, Invitations: Photo, Music: DJ, Cleanup: Water and Soap]" startingAgent="BoulwareNegotiationParty@174" deadline="60rounds">
+<resultsOfAgent agent="BoulwareNegotiationParty@174" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.6090683531327232" finalUtility="0.6090683531327232" discountedUtility="0.6090683531327232" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="UncertaintyAgentExample@175" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="0.40748073458502776" finalUtility="0.4514807345850278" discountedUtility="0.4514807345850278" discount="1.0" totalUserBother="0.04400000000000003">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty@176" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.7997164804402501" finalUtility="0.7997164804402501" discountedUtility="0.7997164804402501" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Fri Dec 08 17:26:36 GMT 2023" timeOfAgreement="0.8852459016393442" lastAction="(Accept  bid:Bid[Food: Handmade Food, Drinks: Handmade Cocktails, Location: Your Dorm, Invitations: Plain, Music: MP3, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="136" runtime="0.274586" finalOutcome="Bid[Food: Handmade Food, Drinks: Handmade Cocktails, Location: Your Dorm, Invitations: Plain, Music: MP3, Cleanup: Water and Soap]" startingAgent="Agent10@177" deadline="60rounds">
+<resultsOfAgent agent="Agent10@177" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.5445500617607801" finalUtility="0.5665500617607802" discountedUtility="0.5665500617607802" discount="1.0" totalUserBother="0.022000000000000013">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty@178" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.8724202209876767" finalUtility="0.8724202209876767" discountedUtility="0.8724202209876767" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty@179" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.7127130127814056" finalUtility="0.7127130127814056" discountedUtility="0.7127130127814056" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Fri Dec 08 17:26:36 GMT 2023" timeOfAgreement="0.9180327868852459" lastAction="(Accept  bid:Bid[Food: Catering, Drinks: Beer Only, Location: Party Tent, Invitations: Plain, Music: DJ, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="165" runtime="0.2992809" finalOutcome="Bid[Food: Catering, Drinks: Beer Only, Location: Party Tent, Invitations: Plain, Music: DJ, Cleanup: Water and Soap]" startingAgent="UncertaintyAgentExample@180" deadline="60rounds">
+<resultsOfAgent agent="UncertaintyAgentExample@180" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="0.6618814102358268" finalUtility="0.7078814102358268" discountedUtility="0.7078814102358268" discount="1.0" totalUserBother="0.046000000000000034">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty@181" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.6448184267673466" finalUtility="0.6448184267673466" discountedUtility="0.6448184267673466" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty@182" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.6012286200291482" finalUtility="0.6012286200291482" discountedUtility="0.6012286200291482" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Fri Dec 08 17:26:36 GMT 2023" timeOfAgreement="0.9344262295081968" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Your Dorm, Invitations: Photo, Music: Band, Cleanup: Specialized Materials])" domain="etc/templates/partydomain/party_domain.xml" bids="164" runtime="0.267305" finalOutcome="Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Your Dorm, Invitations: Photo, Music: Band, Cleanup: Specialized Materials]" startingAgent="BoulwareNegotiationParty@183" deadline="60rounds">
+<resultsOfAgent agent="BoulwareNegotiationParty@183" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.624609679881641" finalUtility="0.624609679881641" discountedUtility="0.624609679881641" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty@184" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.45246919686765785" finalUtility="0.45246919686765785" discountedUtility="0.45246919686765785" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty@185" agentDesc="Time-based agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.8401159007943011" finalUtility="0.8401159007943011" discountedUtility="0.8401159007943011" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome></Tournament>

@@ -1,0 +1,217 @@
+<?xml version="1.0" ?><Tournament>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Mamenchis@172,Participant[Party162,PartyRepositoryItem[Mamenchis,agents.anac.y2017.mamenchis.Mamenchis,ANAC2017, is mediator=false],etc/templates/partydomain/party1_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Sun Dec 10 01:45:50 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Mamenchis@176,Participant[Party166,PartyRepositoryItem[Mamenchis,agents.anac.y2017.mamenchis.Mamenchis,ANAC2017, is mediator=false],etc/templates/partydomain/party2_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Sun Dec 10 01:45:50 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Mamenchis@179,Participant[Party169,PartyRepositoryItem[Mamenchis,agents.anac.y2017.mamenchis.Mamenchis,ANAC2017, is mediator=false],etc/templates/partydomain/party2_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Sun Dec 10 01:45:50 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="SlavaAgent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Mamenchis@181,Participant[Party171,PartyRepositoryItem[Mamenchis,agents.anac.y2017.mamenchis.Mamenchis,ANAC2017, is mediator=false],etc/templates/partydomain/party1_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Sun Dec 10 01:45:50 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Mamenchis@186,Participant[Party176,PartyRepositoryItem[Mamenchis,agents.anac.y2017.mamenchis.Mamenchis,ANAC2017, is mediator=false],etc/templates/partydomain/party3_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Sun Dec 10 01:45:50 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Mamenchis@189,Participant[Party179,PartyRepositoryItem[Mamenchis,agents.anac.y2017.mamenchis.Mamenchis,ANAC2017, is mediator=false],etc/templates/partydomain/party3_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Sun Dec 10 01:45:50 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="SlavaAgent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Mamenchis@190,Participant[Party180,PartyRepositoryItem[Mamenchis,agents.anac.y2017.mamenchis.Mamenchis,ANAC2017, is mediator=false],etc/templates/partydomain/party1_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Sun Dec 10 01:45:50 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="SlavaAgent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Mamenchis@195,Participant[Party185,PartyRepositoryItem[Mamenchis,agents.anac.y2017.mamenchis.Mamenchis,ANAC2017, is mediator=false],etc/templates/partydomain/party3_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Sun Dec 10 01:45:50 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="SlavaAgent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Mamenchis@198,Participant[Party188,PartyRepositoryItem[Mamenchis,agents.anac.y2017.mamenchis.Mamenchis,ANAC2017, is mediator=false],etc/templates/partydomain/party3_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Sun Dec 10 01:45:51 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="SlavaAgent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="SlavaAgent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Mamenchis@199,Participant[Party189,PartyRepositoryItem[Mamenchis,agents.anac.y2017.mamenchis.Mamenchis,ANAC2017, is mediator=false],etc/templates/partydomain/party1_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Sun Dec 10 01:45:51 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Mamenchis@203,Participant[Party193,PartyRepositoryItem[Mamenchis,agents.anac.y2017.mamenchis.Mamenchis,ANAC2017, is mediator=false],etc/templates/partydomain/party2_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Sun Dec 10 01:45:51 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Mamenchis@206,Participant[Party196,PartyRepositoryItem[Mamenchis,agents.anac.y2017.mamenchis.Mamenchis,ANAC2017, is mediator=false],etc/templates/partydomain/party2_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Sun Dec 10 01:45:51 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="SlavaAgent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Mamenchis@208,Participant[Party198,PartyRepositoryItem[Mamenchis,agents.anac.y2017.mamenchis.Mamenchis,ANAC2017, is mediator=false],etc/templates/partydomain/party1_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Sun Dec 10 01:45:51 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:51 GMT 2023" lastAction="(Offer  bid:Bid[Food: Handmade Food, Drinks: Non-Alcoholic, Location: Party Tent, Invitations: Custom, Handmade, Music: MP3, Cleanup: Special Equiment])" domain="etc/templates/partydomain/party_domain.xml" bids="179" runtime="0.5049141" finalOutcome="-" startingAgent="Agent10@211" deadline="60rounds">
+<resultsOfAgent agent="Agent10@211" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@212" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@213" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:53 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Party Tent, Invitations: Custom, Handmade, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="176" runtime="1.0779746" finalOutcome="-" startingAgent="SlavaAgent@214" deadline="60rounds">
+<resultsOfAgent agent="SlavaAgent@214" agentDesc="ANAC2012" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@215" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@216" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Mamenchis@217,Participant[Party207,PartyRepositoryItem[Mamenchis,agents.anac.y2017.mamenchis.Mamenchis,ANAC2017, is mediator=false],etc/templates/partydomain/party1_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Sun Dec 10 01:45:53 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="SlavaAgent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Sun Dec 10 01:45:54 GMT 2023" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Party Tent, Invitations: Custom, Handmade, Music: MP3, Cleanup: Water and Soap])" bids="177" runtime="1.0783582" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="SlavaAgent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:56 GMT 2023" lastAction="(Accept  bid:Bid[Food: Handmade Food, Drinks: Handmade Cocktails, Location: Your Dorm, Invitations: Plain, Music: MP3, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="179" runtime="1.7062456" finalOutcome="-" startingAgent="SlavaAgent@223" deadline="60rounds">
+<resultsOfAgent agent="SlavaAgent@223" agentDesc="ANAC2012" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="SlavaAgent@224" agentDesc="ANAC2012" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@225" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Mamenchis@226,Participant[Party216,PartyRepositoryItem[Mamenchis,agents.anac.y2017.mamenchis.Mamenchis,ANAC2017, is mediator=false],etc/templates/partydomain/party1_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Sun Dec 10 01:45:56 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="SlavaAgent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Mamenchis@230,Participant[Party220,PartyRepositoryItem[Mamenchis,agents.anac.y2017.mamenchis.Mamenchis,ANAC2017, is mediator=false],etc/templates/partydomain/party2_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Sun Dec 10 01:45:56 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="SlavaAgent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Mamenchis@233,Participant[Party223,PartyRepositoryItem[Mamenchis,agents.anac.y2017.mamenchis.Mamenchis,ANAC2017, is mediator=false],etc/templates/partydomain/party2_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Sun Dec 10 01:45:56 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="SlavaAgent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="SlavaAgent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Mamenchis@235,Participant[Party225,PartyRepositoryItem[Mamenchis,agents.anac.y2017.mamenchis.Mamenchis,ANAC2017, is mediator=false],etc/templates/partydomain/party1_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Sun Dec 10 01:45:56 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="SlavaAgent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:45:57 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Party Tent, Invitations: Plain, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="180" runtime="1.0533907" finalOutcome="-" startingAgent="Agent10@238" deadline="60rounds">
+<resultsOfAgent agent="Agent10@238" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@239" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="SlavaAgent@240" agentDesc="ANAC2012" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Sun Dec 10 01:45:59 GMT 2023" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Party Room, Invitations: Custom, Printed, Music: MP3, Cleanup: Specialized Materials])" bids="163" runtime="1.5799" deadline="60rounds">
+<resultsOfAgent agent="SlavaAgent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="SlavaAgent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Mamenchis@244,Participant[Party234,PartyRepositoryItem[Mamenchis,agents.anac.y2017.mamenchis.Mamenchis,ANAC2017, is mediator=false],etc/templates/partydomain/party1_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Sun Dec 10 01:45:59 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Mamenchis" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2017.mamenchis.Mamenchis" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="SlavaAgent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="SlavaAgent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:46:01 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Party Tent, Invitations: Plain, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="180" runtime="1.6625029" finalOutcome="-" startingAgent="Agent10@247" deadline="60rounds">
+<resultsOfAgent agent="Agent10@247" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="SlavaAgent@248" agentDesc="ANAC2012" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="SlavaAgent@249" agentDesc="ANAC2012" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Sun Dec 10 01:46:03 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Party Tent, Invitations: Plain, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="180" runtime="2.239027" finalOutcome="-" startingAgent="SlavaAgent@250" deadline="60rounds">
+<resultsOfAgent agent="SlavaAgent@250" agentDesc="ANAC2012" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="SlavaAgent@251" agentDesc="ANAC2012" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="SlavaAgent@252" agentDesc="ANAC2012" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2013.SlavaAgent.SlavaAgent" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome></Tournament>

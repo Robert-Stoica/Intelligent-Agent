@@ -1,0 +1,217 @@
+<?xml version="1.0" ?><Tournament>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 21:45:12 GMT 2023" lastAction="null" bids="162" runtime="0.4018784" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 21:45:12 GMT 2023" lastAction="(Offer  bid:Bid[Food: Catering, Drinks: Handmade Cocktails, Location: Party Room, Invitations: Custom, Printed, Music: Band, Cleanup: Hired Help])" bids="15" runtime="0.0644077" deadline="60rounds">
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Libra@17,Participant[Party6,PartyRepositoryItem[Libra,agents.anac.y2018.libra.Libra,ANAC2018, is mediator=false],etc/templates/partydomain/party1_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Fri Dec 08 21:45:12 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 21:45:13 GMT 2023" lastAction="null" bids="155" runtime="0.456214" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 21:45:14 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Party Room, Invitations: Custom, Printed, Music: Band, Cleanup: Water and Soap])" bids="136" runtime="0.4051344" deadline="60rounds">
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Libra@26,Participant[Party15,PartyRepositoryItem[Libra,agents.anac.y2018.libra.Libra,ANAC2018, is mediator=false],etc/templates/partydomain/party1_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Fri Dec 08 21:45:14 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Libra@30,Participant[Party19,PartyRepositoryItem[Libra,agents.anac.y2018.libra.Libra,ANAC2018, is mediator=false],etc/templates/partydomain/party2_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Fri Dec 08 21:45:14 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Libra@33,Participant[Party22,PartyRepositoryItem[Libra,agents.anac.y2018.libra.Libra,ANAC2018, is mediator=false],etc/templates/partydomain/party2_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Fri Dec 08 21:45:14 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Libra@35,Participant[Party24,PartyRepositoryItem[Libra,agents.anac.y2018.libra.Libra,ANAC2018, is mediator=false],etc/templates/partydomain/party1_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Fri Dec 08 21:45:14 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 21:45:15 GMT 2023" lastAction="(Offer  bid:Bid[Food: Finger-Food, Drinks: Beer Only, Location: Party Room, Invitations: Custom, Handmade, Music: DJ, Cleanup: Specialized Materials])" bids="127" runtime="0.3316213" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 21:45:15 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Beer Only, Location: Party Room, Invitations: Custom, Printed, Music: MP3, Cleanup: Water and Soap])" bids="77" runtime="0.3304435" deadline="60rounds">
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Libra@44,Participant[Party33,PartyRepositoryItem[Libra,agents.anac.y2018.libra.Libra,ANAC2018, is mediator=false],etc/templates/partydomain/party1_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Fri Dec 08 21:45:16 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 21:45:16 GMT 2023" lastAction="null" bids="146" runtime="0.4837788" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Fri Dec 08 21:45:17 GMT 2023" timeOfAgreement="0.9836065573770492" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Ballroom, Invitations: Plain, Music: Band, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="174" runtime="0.6762988" finalOutcome="Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Ballroom, Invitations: Plain, Music: Band, Cleanup: Water and Soap]" startingAgent="Agent33@50" deadline="60rounds">
+<resultsOfAgent agent="Agent33@50" agentDesc="ANAC2018" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" userUtility="0.5678763142282712" finalUtility="0.5678763142282712" discountedUtility="0.5678763142282712" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent33@51" agentDesc="ANAC2018" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" userUtility="0.6066504668214038" finalUtility="0.6066504668214038" discountedUtility="0.6066504668214038" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent33@52" agentDesc="ANAC2018" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" userUtility="0.9093371825014089" finalUtility="0.9093371825014089" discountedUtility="0.9093371825014089" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Libra@53,Participant[Party42,PartyRepositoryItem[Libra,agents.anac.y2018.libra.Libra,ANAC2018, is mediator=false],etc/templates/partydomain/party1_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Fri Dec 08 21:45:18 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Libra@57,Participant[Party46,PartyRepositoryItem[Libra,agents.anac.y2018.libra.Libra,ANAC2018, is mediator=false],etc/templates/partydomain/party2_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Fri Dec 08 21:45:18 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Libra@60,Participant[Party49,PartyRepositoryItem[Libra,agents.anac.y2018.libra.Libra,ANAC2018, is mediator=false],etc/templates/partydomain/party2_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Fri Dec 08 21:45:18 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Libra@62,Participant[Party51,PartyRepositoryItem[Libra,agents.anac.y2018.libra.Libra,ANAC2018, is mediator=false],etc/templates/partydomain/party1_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Fri Dec 08 21:45:18 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Libra@67,Participant[Party56,PartyRepositoryItem[Libra,agents.anac.y2018.libra.Libra,ANAC2018, is mediator=false],etc/templates/partydomain/party3_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Fri Dec 08 21:45:18 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Libra@70,Participant[Party59,PartyRepositoryItem[Libra,agents.anac.y2018.libra.Libra,ANAC2018, is mediator=false],etc/templates/partydomain/party3_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Fri Dec 08 21:45:19 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Libra@71,Participant[Party60,PartyRepositoryItem[Libra,agents.anac.y2018.libra.Libra,ANAC2018, is mediator=false],etc/templates/partydomain/party1_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Fri Dec 08 21:45:19 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Libra@76,Participant[Party65,PartyRepositoryItem[Libra,agents.anac.y2018.libra.Libra,ANAC2018, is mediator=false],etc/templates/partydomain/party3_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Fri Dec 08 21:45:19 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Libra@79,Participant[Party68,PartyRepositoryItem[Libra,agents.anac.y2018.libra.Libra,ANAC2018, is mediator=false],etc/templates/partydomain/party3_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Fri Dec 08 21:45:19 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Libra@80,Participant[Party69,PartyRepositoryItem[Libra,agents.anac.y2018.libra.Libra,ANAC2018, is mediator=false],etc/templates/partydomain/party1_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Fri Dec 08 21:45:19 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Libra@84,Participant[Party73,PartyRepositoryItem[Libra,agents.anac.y2018.libra.Libra,ANAC2018, is mediator=false],etc/templates/partydomain/party2_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Fri Dec 08 21:45:19 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Libra@87,Participant[Party76,PartyRepositoryItem[Libra,agents.anac.y2018.libra.Libra,ANAC2018, is mediator=false],etc/templates/partydomain/party2_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Fri Dec 08 21:45:20 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Agent33" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2018.agent33.Agent33" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="failed to construct agent : Execution failed of init&lt;Libra@89,Participant[Party78,PartyRepositoryItem[Libra,agents.anac.y2018.libra.Libra,ANAC2018, is mediator=false],etc/templates/partydomain/party1_utility.xml]&gt;:java.lang.IllegalStateException: need standard persistent data: need standard persistent data" currentTime="Fri Dec 08 21:45:20 GMT 2023" lastAction="null" bids="0" runtime="0.0" deadline="60rounds">
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Libra" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2018.libra.Libra" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome></Tournament>

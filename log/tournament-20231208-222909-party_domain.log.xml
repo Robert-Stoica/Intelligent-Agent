@@ -1,0 +1,217 @@
+<?xml version="1.0" ?><Tournament>
+<NegotiationOutcome currentTime="Fri Dec 08 22:29:10 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Party Tent, Invitations: Custom, Handmade, Music: Band, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="180" runtime="0.3869677" finalOutcome="-" startingAgent="Agent10@5" deadline="60rounds">
+<resultsOfAgent agent="Agent10@5" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@6" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@7" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of FuzzyAgent@8:java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke &quot;java.lang.Double.doubleValue()&quot; because the return value of &quot;java.util.HashMap.get(Object)&quot; is null: java.lang.NullPointerException: Cannot invoke &quot;java.lang.Double.doubleValue()&quot; because the return value of &quot;java.util.HashMap.get(Object)&quot; is null: Cannot invoke &quot;java.lang.Double.doubleValue()&quot; because the return value of &quot;java.util.HashMap.get(Object)&quot; is null" currentTime="Fri Dec 08 22:29:10 GMT 2023" lastAction="(Offer  bid:Bid[Food: 12.375707337390438])" bids="0" runtime="0.0177453" deadline="60rounds">
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Fri Dec 08 22:29:11 GMT 2023" lastAction="(Offer  bid:Bid[Food: Finger-Food, Drinks: Non-Alcoholic, Location: Ballroom, Invitations: Custom, Printed, Music: Band, Cleanup: Special Equiment])" domain="etc/templates/partydomain/party_domain.xml" bids="175" runtime="0.3479939" finalOutcome="-" startingAgent="TimeDependentAgentBoulware@11" deadline="60rounds">
+<resultsOfAgent agent="TimeDependentAgentBoulware@11" agentDesc="reluctant to concede" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.TimeDependentAgentBoulware" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@12" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@13" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of FuzzyAgent@15:java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke &quot;java.lang.Double.doubleValue()&quot; because the return value of &quot;java.util.HashMap.get(Object)&quot; is null: java.lang.NullPointerException: Cannot invoke &quot;java.lang.Double.doubleValue()&quot; because the return value of &quot;java.util.HashMap.get(Object)&quot; is null: Cannot invoke &quot;java.lang.Double.doubleValue()&quot; because the return value of &quot;java.util.HashMap.get(Object)&quot; is null" currentTime="Fri Dec 08 22:29:11 GMT 2023" lastAction="(Offer  bid:Bid[Food: 12.031965021622975])" bids="1" runtime="0.0179945" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of FuzzyAgent@17:java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke &quot;java.lang.Double.doubleValue()&quot; because the return value of &quot;java.util.HashMap.get(Object)&quot; is null: java.lang.NullPointerException: Cannot invoke &quot;java.lang.Double.doubleValue()&quot; because the return value of &quot;java.util.HashMap.get(Object)&quot; is null: Cannot invoke &quot;java.lang.Double.doubleValue()&quot; because the return value of &quot;java.util.HashMap.get(Object)&quot; is null" currentTime="Fri Dec 08 22:29:11 GMT 2023" lastAction="(Offer  bid:Bid[Food: 12.375707337390438])" bids="0" runtime="0.0146989" deadline="60rounds">
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of FuzzyAgent@21:java.lang.RuntimeException: java.lang.NullPointerException: java.lang.NullPointerException: null" currentTime="Fri Dec 08 22:29:11 GMT 2023" lastAction="(Offer  bid:Bid[Food: 12.031965021622975])" bids="1" runtime="0.0140341" deadline="60rounds">
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Fri Dec 08 22:29:12 GMT 2023" lastAction="(Offer  bid:Bid[Food: Finger-Food, Drinks: Non-Alcoholic, Location: Party Tent, Invitations: Plain, Music: MP3, Cleanup: Special Equiment])" domain="etc/templates/partydomain/party_domain.xml" bids="177" runtime="0.3836778" finalOutcome="-" startingAgent="Agent10@23" deadline="60rounds">
+<resultsOfAgent agent="Agent10@23" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="TimeDependentAgentBoulware@24" agentDesc="reluctant to concede" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.TimeDependentAgentBoulware" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@25" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of FuzzyAgent@26:java.lang.RuntimeException: java.lang.NullPointerException: java.lang.NullPointerException: null" currentTime="Fri Dec 08 22:29:12 GMT 2023" lastAction="(Offer  bid:Bid[Food: 12.375707337390438])" bids="0" runtime="0.0142777" deadline="60rounds">
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 22:29:12 GMT 2023" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Party Tent, Invitations: Plain, Music: MP3, Cleanup: Hired Help])" bids="157" runtime="0.2770234" deadline="60rounds">
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of FuzzyAgent@34:java.lang.RuntimeException: java.lang.NullPointerException: java.lang.NullPointerException: null" currentTime="Fri Dec 08 22:29:12 GMT 2023" lastAction="(Offer  bid:Bid[Food: 11.828668499200397])" bids="2" runtime="0.0146913" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of FuzzyAgent@35:java.lang.RuntimeException: java.lang.NullPointerException: java.lang.NullPointerException: null" currentTime="Fri Dec 08 22:29:13 GMT 2023" lastAction="(Offer  bid:Bid[Food: 12.375707337390438])" bids="0" runtime="0.0133547" deadline="60rounds">
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of FuzzyAgent@40:java.lang.RuntimeException: java.lang.NullPointerException: java.lang.NullPointerException: null" currentTime="Fri Dec 08 22:29:13 GMT 2023" lastAction="(Offer  bid:Bid[Food: 11.828668499200397])" bids="2" runtime="0.0147255" deadline="60rounds">
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of FuzzyAgent@42:java.lang.RuntimeException: java.lang.NullPointerException: java.lang.NullPointerException: null" currentTime="Fri Dec 08 22:29:13 GMT 2023" lastAction="(Offer  bid:Bid[Food: 12.031965021622975])" bids="1" runtime="0.014261" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 22:29:13 GMT 2023" lastAction="(Accept  bid:Bid[Food: 11.68342424194558])" bids="3" runtime="0.0162378" deadline="60rounds">
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 22:29:13 GMT 2023" lastAction="null" bids="2" runtime="0.0166284" deadline="60rounds">
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of FuzzyAgent@52:java.lang.RuntimeException: java.lang.NullPointerException: java.lang.NullPointerException: null" currentTime="Fri Dec 08 22:29:13 GMT 2023" lastAction="(Offer  bid:Bid[Food: 11.828668499200397])" bids="2" runtime="0.0180482" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 22:29:13 GMT 2023" lastAction="(Accept  bid:Bid[Food: 11.828668499200397])" bids="3" runtime="0.0196329" deadline="60rounds">
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of FuzzyAgent@58:java.lang.ArrayIndexOutOfBoundsException: Index 102 out of bounds for length 101: Index 102 out of bounds for length 101" currentTime="Fri Dec 08 22:29:14 GMT 2023" lastAction="(Offer  bid:Bid[Food: Handmade Food, Drinks: Handmade Cocktails, Location: Party Room, Invitations: Custom, Printed, Music: Band, Cleanup: Specialized Materials])" bids="151" runtime="0.3214391" deadline="60rounds">
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome currentTime="Fri Dec 08 22:29:14 GMT 2023" lastAction="(Accept  bid:Bid[Food: Catering, Drinks: Beer Only, Location: Party Room, Invitations: Photo, Music: MP3, Cleanup: Special Equiment])" domain="etc/templates/partydomain/party_domain.xml" bids="176" runtime="0.3535549" finalOutcome="-" startingAgent="Agent10@59" deadline="60rounds">
+<resultsOfAgent agent="Agent10@59" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10@60" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="TimeDependentAgentBoulware@61" agentDesc="reluctant to concede" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.TimeDependentAgentBoulware" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of FuzzyAgent@62:java.lang.RuntimeException: java.lang.NullPointerException: java.lang.NullPointerException: null" currentTime="Fri Dec 08 22:29:14 GMT 2023" lastAction="(Offer  bid:Bid[Food: 12.375707337390438])" bids="0" runtime="0.0131535" deadline="60rounds">
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 22:29:15 GMT 2023" lastAction="null" bids="163" runtime="0.2886727" deadline="60rounds">
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of FuzzyAgent@69:java.lang.RuntimeException: java.lang.NullPointerException: java.lang.NullPointerException: null" currentTime="Fri Dec 08 22:29:15 GMT 2023" lastAction="(Offer  bid:Bid[Food: 12.031965021622975])" bids="1" runtime="0.0114882" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 22:29:15 GMT 2023" lastAction="(Accept  bid:Bid[Food: 11.828668499200397])" bids="3" runtime="0.01601" deadline="60rounds">
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of FuzzyAgent@75:java.lang.ArrayIndexOutOfBoundsException: Index 101 out of bounds for length 101: Index 101 out of bounds for length 101" currentTime="Fri Dec 08 22:29:15 GMT 2023" lastAction="(Offer  bid:Bid[Food: Finger-Food, Drinks: Handmade Cocktails, Location: Party Tent, Invitations: Plain, Music: DJ, Cleanup: Hired Help])" bids="151" runtime="0.2578705" deadline="60rounds">
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 22:29:16 GMT 2023" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Beer Only, Location: Party Room, Invitations: Custom, Handmade, Music: DJ, Cleanup: Water and Soap])" bids="166" runtime="0.3326254" deadline="60rounds">
+<resultsOfAgent agent="Agent10" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\Agent10.class" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: Execution failed of FuzzyAgent@80:java.lang.ArrayIndexOutOfBoundsException: Index 102 out of bounds for length 101: Index 102 out of bounds for length 101" currentTime="Fri Dec 08 22:29:16 GMT 2023" lastAction="null" bids="152" runtime="0.2606012" deadline="60rounds">
+<resultsOfAgent agent="FuzzyAgent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.FuzzyAgent" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome>
+<NegotiationOutcome exception="Failed to execute protocol: null" currentTime="Fri Dec 08 22:29:17 GMT 2023" lastAction="(Accept  bid:Bid[Food: Handmade Food, Drinks: Handmade Cocktails, Location: Ballroom, Invitations: Custom, Handmade, Music: MP3, Cleanup: Water and Soap])" bids="148" runtime="0.2546472" deadline="60rounds">
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+<resultsOfAgent agent="TimeDependentAgentBoulware" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.TimeDependentAgentBoulware" finalUtility="0.0" discountedUtility="0.0" discount="1.0">
+</resultsOfAgent>
+</NegotiationOutcome></Tournament>

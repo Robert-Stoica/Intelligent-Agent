@@ -1,0 +1,7 @@
+<?xml version="1.0" ?><Session>
+<NegotiationOutcome currentTime="Wed Dec 06 23:33:30 GMT 2023" timeOfAgreement="0.3442622950819672" lastAction="(Accept  bid:Bid[Food: Handmade Food, Drinks: Beer Only, Location: Ballroom, Invitations: Custom, Printed, Music: MP3, Cleanup: Specialized Materials])" domain="etc/templates/partydomain/party_domain.xml" bids="40" runtime="0.5489355" finalOutcome="Bid[Food: Handmade Food, Drinks: Beer Only, Location: Ballroom, Invitations: Custom, Printed, Music: MP3, Cleanup: Specialized Materials]" startingAgent="UncertaintyAgentExample@0" deadline="60rounds">
+<resultsOfAgent agent="UncertaintyAgentExample@0" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="0.7689761327081807" finalUtility="0.8009761327081807" discountedUtility="0.8009761327081807" discount="1.0" totalUserBother="0.03200000000000002">
+</resultsOfAgent>
+<resultsOfAgent agent="UncertaintyAgentExample@1" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="0.4781607135777586" finalUtility="0.5161607135777586" discountedUtility="0.5161607135777586" discount="1.0" totalUserBother="0.03800000000000003">
+</resultsOfAgent>
+</NegotiationOutcome></Session>

@@ -1,0 +1,9 @@
+<?xml version="1.0" ?><Session>
+<NegotiationOutcome currentTime="Fri Dec 08 21:16:28 GMT 2023" timeOfAgreement="0.9508196721311475" lastAction="(Accept  bid:Bid[Food: Finger-Food, Drinks: Beer adly, Location Locaty Room, Invitati Invitations: Custom, Handmadep:Mupec:alJ, Cleanup: Wate" domain="e)" domain="etc/teydomain/party_domain.xml" bids="128"  bids="130" runtime finalOutcom f"Bid[Food: Finger-Food, Drinks: Beer Only, Location: Party Room, Invitations: Plain, Music: MP3, Cleanup: Specialized Materials]" startingAgent="Agent10@ startingAgen60rouent1>
+<reseadline="60 agent=>
+gresultsO agent agentStandard Neg aiation Agent" utilspace="etc/templates/partpace="etc/templates/partydomain/party1_utility0.Age agen userUtility="0.821011237059rUtility="0.7000369463004154" finalUtility="0.7150369463000.83" discountedUt discount="1.0" totalUserB discount="1.0" totalUserBother="0.015000000000000006">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty@4" agentDesc="Time-based agees/ utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.6062393410337544" finalUtility="0.6062393410337544" discountedUtility="0.6062393410337544" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="ConcederNegotiationParty@5" agentDesc="Time-based conceder" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="negotiator.parties.ConcederNegotiationParty" userUtility="0.7445403660941322" finalUtility="0.7445403660941322" discountedUtility="0.7445403660941322" discount="1.0" totalUserBother="0.0">
+</resultsOfAg</Session>otiationOutcome></Session>

@@ -1,0 +1,9 @@
+<?xml version="1.0" ?><Session>
+<NegotiationOutcome currentTime="Sun Dec 10 01:54:50 GMT 2023" timeOfAgreement="0.9508196721311475" lastAction="(Accept  bid:Bid[0000-0300: 25kW, 0300-0600: 0kW, 0600-0900: 0kW, 0900-1200: 25kW, 1200-1500: 0kW, 1500-1800: 25kW, 1800-2100: 50kW, 2100-0000: 0kW])" domain="etc/templates/ANAC2016/parsCat/domain.xml" bids="132" runtime="1.4013755" finalOutcome="Bid[0000-0300: 25kW, 0300-0600: 0kW, 0600-0900: 0kW, 0900-1200: 25kW, 1200-1500: 0kW, 1500-1800: 25kW, 1800-2100: 50kW, 2100-0000: 0kW]" startingAgent="Agent10@256" deadline="60rounds">
+<resultsOfAgent agent="Agent10@256" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/ANAC2016/parsCat/profile1.xml" agentClass="group10.Agent10" userUtility="0.8513745068267995" finalUtility="0.8513745068267995" discountedUtility="0.8513745068267995" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="BoulwareNegotiationParty@257" agentDesc="Time-based agent" utilspace="etc/templates/ANAC2016/parsCat/profile2.xml" agentClass="negotiator.parties.BoulwareNegotiationParty" userUtility="0.23365613584788059" finalUtility="0.23365613584788059" discountedUtility="0.23365613584788059" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+<resultsOfAgent agent="ConcederNegotiationParty@258" agentDesc="Time-based conceder" utilspace="etc/templates/ANAC2016/parsCat/profile3.xml" agentClass="negotiator.parties.ConcederNegotiationParty" userUtility="0.2602662058218343" finalUtility="0.2602662058218343" discountedUtility="0.2602662058218343" discount="1.0" totalUserBother="0.0">
+</resultsOfAgent>
+</NegotiationOutcome></Session>
