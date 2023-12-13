@@ -447,6 +447,9 @@
             <partyRepItem classPath="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\group10\UncertaintyAgentExample.class" strategyParameters="">
                 <properties/>
             </partyRepItem>
+            <partyRepItem classPath="C:\Users\sstoi\IdeaProjects\Intelligent-Agent\out\production\Intelligent-Agent\tournament\Agent10.class" strategyParameters="">
+                <properties/>
+            </partyRepItem>
         </partyRepItems>
         <domainRepItem/>
         <protocolRepItem/>
