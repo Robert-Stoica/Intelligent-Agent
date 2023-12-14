@@ -90,6 +90,11 @@ public class OpponentModel{
         if (bidDetailsForAgent == null || bidDetailsForAgent.isEmpty()){
             return null;
         }
+//
+//        return bidFrequency.entrySet().stream()
+//                .max(Map.Entry.comparingByValue())
+//                .map(Map.Entry::getKey)
+//                .orElse(null);
 
         return bidDetailsForAgent.stream()
                 .filter(bidDetail -> bidFrequency.containsKey(bidDetail.getBid()))
@@ -125,6 +130,5 @@ public class OpponentModel{
         }
 
     }
-
 
 }

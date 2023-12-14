@@ -8,7 +8,7 @@
 </resultsOfAgent>
 </NegotiationOutcome>
 <NegotiationOutcome currentTime="Fri Dec 08 23:17:46 GMT 2023" lastAction="(Offer  bid:Bid[Food: Finger-Food, Drinks: Handmade Cocktails, Location: Ballroom, Invitations: Plain, Music: Band, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="178" runtime="0.5022238" finalOutcome="-" startingAgent="UncertaintyAgentExample@6" deadline="60rounds">
-<resultsOfAgent agent="UncertaintyAgentExample@6" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.04000000000000003" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.04000000000000003">
+<resultsOfAgent agent="UncertaintyAgentExample@6" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.04000000000000003" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.04000000000000003">
 </resultsOfAgent>
 <resultsOfAgent agent="Agent10@7" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
 </resultsOfAgent>
@@ -26,15 +26,15 @@
 <NegotiationOutcome currentTime="Fri Dec 08 23:17:48 GMT 2023" lastAction="(Offer  bid:Bid[Food: Finger-Food, Drinks: Handmade Cocktails, Location: Party Tent, Invitations: Plain, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="178" runtime="0.4322723" finalOutcome="-" startingAgent="Agent10@12" deadline="60rounds">
 <resultsOfAgent agent="Agent10@12" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
 </resultsOfAgent>
-<resultsOfAgent agent="UncertaintyAgentExample@13" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.04400000000000003" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.04400000000000003">
+<resultsOfAgent agent="UncertaintyAgentExample@13" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.04400000000000003" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.04400000000000003">
 </resultsOfAgent>
 <resultsOfAgent agent="Agent10@14" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
 </resultsOfAgent>
 </NegotiationOutcome>
 <NegotiationOutcome currentTime="Fri Dec 08 23:17:48 GMT 2023" lastAction="(Accept  bid:Bid[Food: Chips and Nuts, Drinks: Handmade Cocktails, Location: Ballroom, Invitations: Custom, Handmade, Music: DJ, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="179" runtime="0.4440251" finalOutcome="-" startingAgent="UncertaintyAgentExample@15" deadline="60rounds">
-<resultsOfAgent agent="UncertaintyAgentExample@15" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.04400000000000003" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.04400000000000003">
+<resultsOfAgent agent="UncertaintyAgentExample@15" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.04400000000000003" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.04400000000000003">
 </resultsOfAgent>
-<resultsOfAgent agent="UncertaintyAgentExample@16" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.10700000000000008" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.10700000000000008">
+<resultsOfAgent agent="UncertaintyAgentExample@16" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.10700000000000008" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.10700000000000008">
 </resultsOfAgent>
 <resultsOfAgent agent="Agent10@17" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
 </resultsOfAgent>
@@ -42,7 +42,7 @@
 <NegotiationOutcome currentTime="Fri Dec 08 23:17:49 GMT 2023" lastAction="(Offer  bid:Bid[Food: Finger-Food, Drinks: Handmade Cocktails, Location: Ballroom, Invitations: Plain, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="127" runtime="0.4258286" finalOutcome="-" startingAgent="CUHKAgent@18" deadline="60rounds">
 <resultsOfAgent agent="CUHKAgent@18" agentDesc="ANAC2012" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2012.CUHKAgent.CUHKAgent" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
 </resultsOfAgent>
-<resultsOfAgent agent="UncertaintyAgentExample@19" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.008" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.008">
+<resultsOfAgent agent="UncertaintyAgentExample@19" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.008" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.008">
 </resultsOfAgent>
 <resultsOfAgent agent="Agent10@20" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
 </resultsOfAgent>
@@ -56,7 +56,7 @@
 </resultsOfAgent>
 </NegotiationOutcome>
 <NegotiationOutcome currentTime="Fri Dec 08 23:17:50 GMT 2023" lastAction="(Accept  bid:Bid[Food: Handmade Food, Drinks: Handmade Cocktails, Location: Your Dorm, Invitations: Plain, Music: MP3, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="178" runtime="0.4028866" finalOutcome="-" startingAgent="UncertaintyAgentExample@24" deadline="60rounds">
-<resultsOfAgent agent="UncertaintyAgentExample@24" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.05400000000000004" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.05400000000000004">
+<resultsOfAgent agent="UncertaintyAgentExample@24" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.05400000000000004" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.05400000000000004">
 </resultsOfAgent>
 <resultsOfAgent agent="CUHKAgent@25" agentDesc="ANAC2012" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2012.CUHKAgent.CUHKAgent" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
 </resultsOfAgent>
@@ -76,15 +76,15 @@
 </resultsOfAgent>
 <resultsOfAgent agent="Agent10@31" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
 </resultsOfAgent>
-<resultsOfAgent agent="UncertaintyAgentExample@32" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.060000000000000046" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.060000000000000046">
+<resultsOfAgent agent="UncertaintyAgentExample@32" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.060000000000000046" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.060000000000000046">
 </resultsOfAgent>
 </NegotiationOutcome>
 <NegotiationOutcome currentTime="Fri Dec 08 23:17:52 GMT 2023" lastAction="(Offer  bid:Bid[Food: Finger-Food, Drinks: Non-Alcoholic, Location: Party Room, Invitations: Plain, Music: DJ, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="178" runtime="0.4497996" finalOutcome="-" startingAgent="UncertaintyAgentExample@33" deadline="60rounds">
-<resultsOfAgent agent="UncertaintyAgentExample@33" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.10700000000000008" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.10700000000000008">
+<resultsOfAgent agent="UncertaintyAgentExample@33" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.10700000000000008" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.10700000000000008">
 </resultsOfAgent>
 <resultsOfAgent agent="Agent10@34" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
 </resultsOfAgent>
-<resultsOfAgent agent="UncertaintyAgentExample@35" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.05200000000000004" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.05200000000000004">
+<resultsOfAgent agent="UncertaintyAgentExample@35" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.05200000000000004" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.05200000000000004">
 </resultsOfAgent>
 </NegotiationOutcome>
 <NegotiationOutcome currentTime="Fri Dec 08 23:17:53 GMT 2023" lastAction="(Offer  bid:Bid[Food: Catering, Drinks: Catering, Location: Party Room, Invitations: Photo, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="177" runtime="0.4024602" finalOutcome="-" startingAgent="CUHKAgent@36" deadline="60rounds">
@@ -92,31 +92,31 @@
 </resultsOfAgent>
 <resultsOfAgent agent="Agent10@37" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
 </resultsOfAgent>
-<resultsOfAgent agent="UncertaintyAgentExample@38" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.07000000000000005" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.07000000000000005">
+<resultsOfAgent agent="UncertaintyAgentExample@38" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.07000000000000005" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.07000000000000005">
 </resultsOfAgent>
 </NegotiationOutcome>
 <NegotiationOutcome currentTime="Fri Dec 08 23:17:53 GMT 2023" lastAction="(Offer  bid:Bid[Food: Catering, Drinks: Non-Alcoholic, Location: Party Tent, Invitations: Custom, Printed, Music: DJ, Cleanup: Special Equiment])" domain="etc/templates/partydomain/party_domain.xml" bids="178" runtime="0.4826302" finalOutcome="-" startingAgent="Agent10@39" deadline="60rounds">
 <resultsOfAgent agent="Agent10@39" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
 </resultsOfAgent>
-<resultsOfAgent agent="UncertaintyAgentExample@40" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.05200000000000004" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.05200000000000004">
+<resultsOfAgent agent="UncertaintyAgentExample@40" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.05200000000000004" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.05200000000000004">
 </resultsOfAgent>
-<resultsOfAgent agent="UncertaintyAgentExample@41" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.10600000000000008" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.10600000000000008">
+<resultsOfAgent agent="UncertaintyAgentExample@41" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.10600000000000008" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.10600000000000008">
 </resultsOfAgent>
 </NegotiationOutcome>
 <NegotiationOutcome currentTime="Fri Dec 08 23:17:54 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Beer Only, Location: Your Dorm, Invitations: Photo, Music: DJ, Cleanup: Special Equiment])" domain="etc/templates/partydomain/party_domain.xml" bids="180" runtime="0.5020821" finalOutcome="-" startingAgent="UncertaintyAgentExample@42" deadline="60rounds">
-<resultsOfAgent agent="UncertaintyAgentExample@42" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.10400000000000008" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.10400000000000008">
+<resultsOfAgent agent="UncertaintyAgentExample@42" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.10400000000000008" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.10400000000000008">
 </resultsOfAgent>
-<resultsOfAgent agent="UncertaintyAgentExample@43" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.10900000000000008" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.10900000000000008">
+<resultsOfAgent agent="UncertaintyAgentExample@43" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.10900000000000008" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.10900000000000008">
 </resultsOfAgent>
-<resultsOfAgent agent="UncertaintyAgentExample@44" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.10800000000000008" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.10800000000000008">
+<resultsOfAgent agent="UncertaintyAgentExample@44" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.10800000000000008" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.10800000000000008">
 </resultsOfAgent>
 </NegotiationOutcome>
 <NegotiationOutcome currentTime="Fri Dec 08 23:17:54 GMT 2023" lastAction="(Offer  bid:Bid[Food: Handmade Food, Drinks: Non-Alcoholic, Location: Party Tent, Invitations: Photo, Music: Band, Cleanup: Specialized Materials])" domain="etc/templates/partydomain/party_domain.xml" bids="128" runtime="0.3435742" finalOutcome="-" startingAgent="CUHKAgent@45" deadline="60rounds">
 <resultsOfAgent agent="CUHKAgent@45" agentDesc="ANAC2012" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="agents.anac.y2012.CUHKAgent.CUHKAgent" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
 </resultsOfAgent>
-<resultsOfAgent agent="UncertaintyAgentExample@46" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.006" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.006">
+<resultsOfAgent agent="UncertaintyAgentExample@46" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.006" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.006">
 </resultsOfAgent>
-<resultsOfAgent agent="UncertaintyAgentExample@47" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.016000000000000007" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.016000000000000007">
+<resultsOfAgent agent="UncertaintyAgentExample@47" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.016000000000000007" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.016000000000000007">
 </resultsOfAgent>
 </NegotiationOutcome>
 <NegotiationOutcome currentTime="Fri Dec 08 23:17:55 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Catering, Location: Party Room, Invitations: Photo, Music: MP3, Cleanup: Water and Soap])" domain="etc/templates/partydomain/party_domain.xml" bids="180" runtime="0.3766444" finalOutcome="-" startingAgent="Agent10@48" deadline="60rounds">
@@ -124,15 +124,15 @@
 </resultsOfAgent>
 <resultsOfAgent agent="CUHKAgent@49" agentDesc="ANAC2012" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2012.CUHKAgent.CUHKAgent" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
 </resultsOfAgent>
-<resultsOfAgent agent="UncertaintyAgentExample@50" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.004" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.004">
+<resultsOfAgent agent="UncertaintyAgentExample@50" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.004" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.004">
 </resultsOfAgent>
 </NegotiationOutcome>
 <NegotiationOutcome currentTime="Fri Dec 08 23:17:56 GMT 2023" lastAction="(Offer  bid:Bid[Food: Finger-Food, Drinks: Beer Only, Location: Party Tent, Invitations: Custom, Handmade, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="180" runtime="0.4081824" finalOutcome="-" startingAgent="UncertaintyAgentExample@51" deadline="60rounds">
-<resultsOfAgent agent="UncertaintyAgentExample@51" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.10600000000000008" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.10600000000000008">
+<resultsOfAgent agent="UncertaintyAgentExample@51" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.10600000000000008" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.10600000000000008">
 </resultsOfAgent>
 <resultsOfAgent agent="CUHKAgent@52" agentDesc="ANAC2012" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2012.CUHKAgent.CUHKAgent" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
 </resultsOfAgent>
-<resultsOfAgent agent="UncertaintyAgentExample@53" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.004" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.004">
+<resultsOfAgent agent="UncertaintyAgentExample@53" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.004" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.004">
 </resultsOfAgent>
 </NegotiationOutcome>
 <NegotiationOutcome currentTime="Fri Dec 08 23:17:56 GMT 2023" lastAction="(Offer  bid:Bid[Food: Catering, Drinks: Catering, Location: Party Room, Invitations: Custom, Printed, Music: DJ, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="180" runtime="0.3066485" finalOutcome="-" startingAgent="CUHKAgent@54" deadline="60rounds">
@@ -140,7 +140,7 @@
 </resultsOfAgent>
 <resultsOfAgent agent="CUHKAgent@55" agentDesc="ANAC2012" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2012.CUHKAgent.CUHKAgent" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
 </resultsOfAgent>
-<resultsOfAgent agent="UncertaintyAgentExample@56" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.004" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.004">
+<resultsOfAgent agent="UncertaintyAgentExample@56" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.004" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.004">
 </resultsOfAgent>
 </NegotiationOutcome>
 <NegotiationOutcome currentTime="Fri Dec 08 23:17:57 GMT 2023" lastAction="(Offer  bid:Bid[Food: Chips and Nuts, Drinks: Non-Alcoholic, Location: Party Tent, Invitations: Plain, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="180" runtime="0.3196683" finalOutcome="-" startingAgent="Agent10@57" deadline="60rounds">
@@ -152,7 +152,7 @@
 </resultsOfAgent>
 </NegotiationOutcome>
 <NegotiationOutcome currentTime="Fri Dec 08 23:17:57 GMT 2023" lastAction="(Offer  bid:Bid[Food: Finger-Food, Drinks: Non-Alcoholic, Location: Party Tent, Invitations: Plain, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="180" runtime="0.3740053" finalOutcome="-" startingAgent="UncertaintyAgentExample@60" deadline="60rounds">
-<resultsOfAgent agent="UncertaintyAgentExample@60" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.006" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.006">
+<resultsOfAgent agent="UncertaintyAgentExample@60" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.006" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.006">
 </resultsOfAgent>
 <resultsOfAgent agent="Agent10@61" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
 </resultsOfAgent>
@@ -170,7 +170,7 @@
 <NegotiationOutcome currentTime="Fri Dec 08 23:17:59 GMT 2023" lastAction="(Offer  bid:Bid[Food: Finger-Food, Drinks: Non-Alcoholic, Location: Party Tent, Invitations: Plain, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="180" runtime="0.356258" finalOutcome="-" startingAgent="Agent10@66" deadline="60rounds">
 <resultsOfAgent agent="Agent10@66" agentDesc="Standard Negotiation Agent" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.Agent10" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
 </resultsOfAgent>
-<resultsOfAgent agent="UncertaintyAgentExample@67" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.026000000000000016" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.026000000000000016">
+<resultsOfAgent agent="UncertaintyAgentExample@67" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.026000000000000016" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.026000000000000016">
 </resultsOfAgent>
 <resultsOfAgent agent="CUHKAgent@68" agentDesc="ANAC2012" utilspace="etc/templates/partydomain/party3_utility.xml" agentClass="agents.anac.y2012.CUHKAgent.CUHKAgent" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
 </resultsOfAgent>
@@ -200,7 +200,7 @@
 </resultsOfAgent>
 </NegotiationOutcome>
 <NegotiationOutcome currentTime="Fri Dec 08 23:18:01 GMT 2023" lastAction="(Offer  bid:Bid[Food: Finger-Food, Drinks: Non-Alcoholic, Location: Party Tent, Invitations: Plain, Music: Band, Cleanup: Hired Help])" domain="etc/templates/partydomain/party_domain.xml" bids="180" runtime="0.3064331" finalOutcome="-" startingAgent="UncertaintyAgentExample@78" deadline="60rounds">
-<resultsOfAgent agent="UncertaintyAgentExample@78" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="group10.UncertaintyAgentExample" userUtility="-0.006" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.006">
+<resultsOfAgent agent="UncertaintyAgentExample@78" agentDesc="Example agent that can deal with uncertain preferences" utilspace="etc/templates/partydomain/party1_utility.xml" agentClass="tournament.UncertaintyAgentExample" userUtility="-0.006" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.006">
 </resultsOfAgent>
 <resultsOfAgent agent="CUHKAgent@79" agentDesc="ANAC2012" utilspace="etc/templates/partydomain/party2_utility.xml" agentClass="agents.anac.y2012.CUHKAgent.CUHKAgent" userUtility="0.0" finalUtility="0.0" discountedUtility="0.0" discount="1.0" totalUserBother="0.0">
 </resultsOfAgent>

@@ -15,7 +15,7 @@
         <meanWelfare>0.0</meanWelfare>
     </statistics>
     <statistics>
-        <agentname>group10.UncertaintyAgentExample</agentname>
+        <agentname>tournament.UncertaintyAgentExample</agentname>
         <totalUndiscountedUtility>0.0</totalUndiscountedUtility>
         <totalDiscountedUtility>0.0</totalDiscountedUtility>
         <numberOfSessions>24</numberOfSessions>

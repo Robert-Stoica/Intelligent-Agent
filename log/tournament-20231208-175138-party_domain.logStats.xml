@@ -57,7 +57,7 @@
         <meanWelfare>1.3625997018822589</meanWelfare>
     </statistics>
     <statistics>
-        <agentname>group10.UncertaintyAgentExample</agentname>
+        <agentname>tournament.UncertaintyAgentExample</agentname>
         <totalUndiscountedUtility>2.985548680578771</totalUndiscountedUtility>
         <totalDiscountedUtility>2.985548680578771</totalDiscountedUtility>
         <numberOfSessions>17</numberOfSessions>

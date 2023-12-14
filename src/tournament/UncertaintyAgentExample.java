@@ -1,4 +1,4 @@
-package group10;
+package tournament;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <agentsStatistics>
     <statistics>
-        <agentname>group10.UncertaintyAgentExample</agentname>
+        <agentname>tournament.UncertaintyAgentExample</agentname>
         <totalUndiscountedUtility>7.328342885795166</totalUndiscountedUtility>
         <totalDiscountedUtility>7.328342885795166</totalDiscountedUtility>
         <numberOfSessions>27</numberOfSessions>
