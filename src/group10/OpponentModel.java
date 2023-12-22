@@ -1,18 +1,14 @@
 package group10;
 
-import agents.anac.y2019.minf.MINF;
 import genius.core.AgentID;
 import genius.core.Bid;
 import genius.core.bidding.BidDetails;
 import genius.core.issue.Issue;
 import genius.core.issue.IssueDiscrete;
 import genius.core.issue.ValueDiscrete;
-import genius.core.uncertainty.UserModel;
 import genius.core.utility.AbstractUtilitySpace;
-import genius.core.utility.AdditiveUtilitySpace;
 
 import java.util.*;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class OpponentModel{
@@ -21,10 +17,10 @@ public class OpponentModel{
     private Map<Bid, Integer> bidFrequency;
     private Map<AgentID, Double> totalConcession;
     private Map<AgentID, Integer>  concessionCount;
-    private ArrayList<IssueDiscrete> issues;
-    private HashMap<IssueDiscrete, HashMap<ValueDiscrete, HashMap<AgentID, Double>>> opponentPrefs;
-    private HashMap<IssueDiscrete, HashMap<ValueDiscrete, HashMap<AgentID, Double>>> valuePrefs;
-    private HashMap<IssueDiscrete, HashMap<AgentID, Double>> issuePrefs;
+    private ArrayList<IssueDiscrete> setOfIssues;
+    private HashMap<IssueDiscrete, HashMap<ValueDiscrete, HashMap<AgentID, Double>>> profileOfOpponent;
+    private HashMap<IssueDiscrete, HashMap<ValueDiscrete, HashMap<AgentID, Double>>> profileOfValues;
+    private HashMap<IssueDiscrete, HashMap<AgentID, Double>> profileOfIssues;
 
     public OpponentModel(AbstractUtilitySpace utilitySpace) {
         this.opponentBids = new HashMap<>();
@@ -33,36 +29,36 @@ public class OpponentModel{
         this.totalConcession = new HashMap<>();
         this.concessionCount = new HashMap<>();
 
-        this.issues = new ArrayList<>();
-        this.opponentPrefs = new HashMap<>();
-        this.valuePrefs = new HashMap<>();
-        this.issuePrefs = new HashMap<>();
+        this.setOfIssues = new ArrayList<>();
+        this.profileOfOpponent = new HashMap<>();
+        this.profileOfValues = new HashMap<>();
+        this.profileOfIssues = new HashMap<>();
 
         for (Issue issue : utilitySpace.getDomain().getIssues()) {
             if (issue instanceof IssueDiscrete issueDiscrete) {
-                issues.add(issueDiscrete);
+                setOfIssues.add(issueDiscrete);
                 HashMap<ValueDiscrete, HashMap<AgentID, Double>> opponentMap = new HashMap<>();
                 HashMap<ValueDiscrete, HashMap<AgentID, Double>> valueMap = new HashMap<>();
                 for (ValueDiscrete value : issueDiscrete.getValues()) {
                     opponentMap.put(value, new HashMap<>());
                     valueMap.put(value, new HashMap<>());
                 }
-                opponentPrefs.put(issueDiscrete, opponentMap);
-                valuePrefs.put(issueDiscrete, valueMap);
-                issuePrefs.put(issueDiscrete, new HashMap<>());
+                profileOfOpponent.put(issueDiscrete, opponentMap);
+                profileOfValues.put(issueDiscrete, valueMap);
+                profileOfIssues.put(issueDiscrete, new HashMap<>());
             }
         }
     }
 
 
-    public void updateFrequencies(Bid bid, AgentID agent, double frequencyWeight) {
-        for (IssueDiscrete issue : issues) {
-            ValueDiscrete value = (ValueDiscrete) bid.getValue(issue.getNumber());
-            HashMap<ValueDiscrete, HashMap<AgentID, Double>> valueMap = opponentPrefs.get(issue);
+    public void FrequenciesOptimization(Bid opponentBid, AgentID agentID, double weightFreq) {
+        for (IssueDiscrete issue : setOfIssues) {
+            ValueDiscrete value = (ValueDiscrete) opponentBid.getValue(issue.getNumber());
+            HashMap<ValueDiscrete, HashMap<AgentID, Double>> valueMap = profileOfOpponent.get(issue);
             HashMap<AgentID, Double> agentMap = valueMap.get(value);
-            Double currentFrequency = agentMap.getOrDefault(agent, 0.0);
-            Double newFrequency = currentFrequency + frequencyWeight;
-            agentMap.put(agent, newFrequency);
+            Double currentFrequency = agentMap.getOrDefault(agentID, 0.0);
+            Double newFrequency = currentFrequency + weightFreq;
+            agentMap.put(agentID, newFrequency);
         }
     }
 
@@ -90,11 +86,6 @@ public class OpponentModel{
         if (bidDetailsForAgent == null || bidDetailsForAgent.isEmpty()){
             return null;
         }
-//
-//        return bidFrequency.entrySet().stream()
-//                .max(Map.Entry.comparingByValue())
-//                .map(Map.Entry::getKey)
-//                .orElse(null);
 
         return bidDetailsForAgent.stream()
                 .filter(bidDetail -> bidFrequency.containsKey(bidDetail.getBid()))
@@ -114,11 +105,11 @@ public class OpponentModel{
     }
 
 
-    public void updateOpponentBid(Bid bid, double time, AgentID agentID) {
+    public void updateOpponentBid(Bid opponentBid, double time, AgentID agentID) {
         var agentArray = opponentBids.computeIfAbsent(agentID,(a) -> new ArrayList<>());
-        double utility = this.utilitySpace.getUtility(bid);
-        agentArray.add(new BidDetails(bid, utility, time));
-        bidFrequency.put(bid, bidFrequency.getOrDefault(bid, 0) + 1);
+        double utility = this.utilitySpace.getUtility(opponentBid);
+        agentArray.add(new BidDetails(opponentBid, utility, time));
+        bidFrequency.put(opponentBid, bidFrequency.getOrDefault(opponentBid, 0) + 1);
 
         if (agentArray.size() > 1) {
             BidDetails previousBid = agentArray.get(agentArray.size() - 2);

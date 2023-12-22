@@ -3,10 +3,7 @@ package group10;
 import genius.core.AgentID;
 import genius.core.Bid;
 import genius.core.BidHistory;
-import genius.core.actions.Accept;
-import genius.core.actions.Action;
-import genius.core.actions.ActionWithBid;
-import genius.core.actions.Offer;
+import genius.core.actions.*;
 import genius.core.bidding.BidDetails;
 import genius.core.issue.IssueDiscrete;
 import genius.core.issue.ValueDiscrete;
@@ -22,27 +19,29 @@ import java.io.PrintStream;
 import java.util.*;
 
 
-public class Agent10 extends AbstractNegotiationParty {
+public class Agent10withOM extends AbstractNegotiationParty {
 
+    private int rounds;
     private final String agentDetails = "Costume Negotiation Agent";
-    private final double MAX_TARGET_UTILITY = 0.95;
+    private List<BidAndAgent> offerList;
+    private OpponentModel opponentModel;
+
+
+    private Bid previousBid;
+    private Bid highestBid;
+    private final double MAX_TARGET_UTILITY  = 0.95;
     private final double MIN_TARGET_UTILITY = 0.70;
-    private final BidHistory pastBids = new BidHistory();
-    private final List<ProposalAnalysis> receivedOffersList = new ArrayList<ProposalAnalysis>();
     double max_utility;
     double min_utility;
     OmClass omClass;
-    double targetUtility;
-    double rate_of_concession = 0.92;
-    double inital_proposal_value = 0.2;
-    private int rounds;
-    private List<BidAndAgent> offerList;
-    private OpponentModel opponentModel;
-    private Bid previousBid;
-    private Bid highestBid;
-    private Bid lowestBid;
 
-    // Initialize agent with negotiation information
+    double rate_of_concession = 0.92;
+    double initial_proposal_value = 0.2;
+    private Bid lowestBid;
+    private BidHistory pastBids = new BidHistory();
+
+    private List<ProposalAnalysis> receivedOffersList = new ArrayList<ProposalAnalysis>();
+
     @Override
     public void init(NegotiationInfo info) {
         try {
@@ -51,7 +50,6 @@ public class Agent10 extends AbstractNegotiationParty {
             rounds = 0;
 
             offerList = new ArrayList<>();
-            // Initialize the opponent modeling class
             this.opponentModel = new OpponentModel(info.getUtilitySpace());
 
             System.setOut(new PrintStream(new FileOutputStream(FileDescriptor.out)));
@@ -59,7 +57,6 @@ public class Agent10 extends AbstractNegotiationParty {
             AbstractUtilitySpace utilitySpace = info.getUtilitySpace();
             AdditiveUtilitySpace additiveUtilitySpace = (AdditiveUtilitySpace) utilitySpace;
 
-            // Determine the highest and lowest bids based on utility space
             try {
                 if (hasPreferenceUncertainty()) {
                     highestBid = additiveUtilitySpace.getMaxUtilityBid();
@@ -75,7 +72,7 @@ public class Agent10 extends AbstractNegotiationParty {
             min_utility = Math.max(utilitySpace.getReservationValue(), min_utility);
             omClass = new JohnnyBlack(getDomain(), MIN_TARGET_UTILITY, 10);
 
-        } catch (Throwable e) {
+        }catch (Throwable e){
             e.printStackTrace();
             throw new RuntimeException(e);
         }
@@ -83,7 +80,6 @@ public class Agent10 extends AbstractNegotiationParty {
 
     @Override
     public Action chooseAction(List<Class<? extends Action>> list) {
-        // Decide action: either accept a bid or make a new offer
         try {
             ActionWithBid possibleAccept = isAccepting();
             if (possibleAccept == null) {
@@ -91,12 +87,11 @@ public class Agent10 extends AbstractNegotiationParty {
                 System.out.println(possibleAccept);
 
             }
-            // Clear lists for the new negotiation round
             offerList.clear();
             receivedOffersList.clear();
             return possibleAccept;
 
-        } catch (Throwable e) {
+        }catch (Throwable e){
             e.printStackTrace();
             throw new RuntimeException(e);
         }
@@ -107,7 +102,7 @@ public class Agent10 extends AbstractNegotiationParty {
     public void receiveMessage(AgentID sender, Action act) {
         try {
             super.receiveMessage(sender, act);
-            // Process received offers and update opponent model
+
             if (act instanceof Offer offer) {
                 offerList.add(new BidAndAgent(offer.getBid(), sender));
                 opponentModel.updateOpponentBid(offer.getBid(), getTimeLine().getTime(), sender);
@@ -118,17 +113,15 @@ public class Agent10 extends AbstractNegotiationParty {
 
                 // Adjust strategy based on opponent's most frequent bid
                 adjustStrategyBasedOnMostFrequentBid(sender);
-               //opponentModel.updateFrequencies(offer.getBid(), sender, getFrequencyWeight());
 
             }
-        } catch (Throwable e) {
+        }catch (Throwable e){
             e.printStackTrace();
             throw new RuntimeException(e);
         }
     }
 
     public Bid generateRandomBidWithUtility(double utilityThreshold) {
-        // Generate a bid above a certain utility threshold
         Bid arbitraryBid;
         double valueMetric;
         do {
@@ -150,23 +143,21 @@ public class Agent10 extends AbstractNegotiationParty {
         double averageReceivedUtility;
         double minimumUtilityLimit;
 
-        System.out.println("------------------------------------");
-
-        // Calculate the minimum utility limit for bid acceptance
-        for (ProposalAnalysis proposalAnalysis : receivedOffersList) {
-            System.out.println(proposalAnalysis.getUtilityValue());
-            totalReceivedOffers = totalReceivedOffers + proposalAnalysis.getUtilityValue();
+        for (BidAndAgent bidAndAgent : offerList){
+            System.out.println("Util estimator: " + utilitySpace.getUtility(bidAndAgent.bid()));
+            System.out.println("Johnny Black estimator: " + omClass.calculateBidUtility(bidAndAgent.bid()));
+            double mediumBidUtility = calcRecievedUtility(bidAndAgent.bid());
+            totalReceivedOffers = totalReceivedOffers + mediumBidUtility;
         }
+
         averageReceivedUtility = totalReceivedOffers / receivedOffersList.size();
-        minimumUtilityLimit = ((utilitySpace.getUtility(highestBid) + averageReceivedUtility) / 2) * time;
-        //omClass.calculateBidUtility(highestBid) Johnny Black
+        minimumUtilityLimit = ((max_utility + averageReceivedUtility) / 2) * time;
 
         if (minimumUtilityLimit < 0.7) {
-            minimumUtilityLimit = ((utilitySpace.getUtility(highestBid) + 0.8) / 2);
+            minimumUtilityLimit = ((max_utility + 0.8) / 2);
         }
-        //omClass.calculateBidUtility(highestBid)
-        System.out.println(minimumUtilityLimit);
 
+        System.out.println(minimumUtilityLimit);
 
         previousBid = generateRandomBidWithUtility(minimumUtilityLimit);
         return new Offer(this.getPartyId(), previousBid);
@@ -174,16 +165,14 @@ public class Agent10 extends AbstractNegotiationParty {
     }
 
 
-    private double calcTargetUtil(double max_utility, double min_utility, double inital_proposal_value, double rate_of_concession, double time, double opponentConcessionRate) {
-        // Update rate of concession based on opponent's concession rate
+    private double calcTargetUtil(double max_utility, double min_utility, double initial_proposal_value, double rate_of_concession, double time, double opponentConcessionRate) {
         rate_of_concession = adjustRateOfConcession(rate_of_concession, opponentConcessionRate);
-        double timeFunc = inital_proposal_value + ((1 - inital_proposal_value) * Math.pow(time, 1 / rate_of_concession));
+        double timeFunc = initial_proposal_value + ((1 - initial_proposal_value) * Math.pow(time, 1 / rate_of_concession));
         return min_utility + (1 - timeFunc) * (max_utility - min_utility);
     }
 
-    // Adjust concession rate based on opponent's behavior
     private double adjustRateOfConcession(double myRate, double opponentRate) {
-        // Example: Be more conceding if opponent is conceding less and vice versa
+        // Be more conceding if opponent is conceding less and vice versa
         if (opponentRate < myRate) {
             return myRate * 0.9; // Be less conceding
         } else {
@@ -191,16 +180,20 @@ public class Agent10 extends AbstractNegotiationParty {
         }
     }
 
+    private double calcRecievedUtility(Bid bid){
+        return  (utilitySpace.getUtility(bid) + omClass.calculateBidUtility(bid)) / 2;
+    }
+
     private ActionWithBid isAccepting() {
 
         List<Accept> listAccept = new ArrayList<>();
-        List<Double> listOfBids = new ArrayList<>();
+        List<Double> listOfBids =  new ArrayList<>();
 
 
         for (BidAndAgent bidAndAgent : offerList) {
             Bid bid = bidAndAgent.bid();
             AgentID sender = bidAndAgent.agentID();
-            double receivedBidUtility = utilitySpace.getUtility(bid);
+            double receivedBidUtility = calcRecievedUtility(bid);
             double targetUtility = calculateCurrentTargetUtility(sender);
 
             // Accept if the utility of the bid is higher than the target utility
@@ -215,8 +208,7 @@ public class Agent10 extends AbstractNegotiationParty {
         double bestDiff = -1;
         Accept bestDecision = null;
 
-        // Select the best acceptable bid based on utility difference
-        for (int i = 0; i < listAccept.size(); i++) {
+        for (int i = 0; i < listAccept.size(); i++){
             double currentDiff = listOfBids.get(i);
             if (currentDiff > bestDiff) {
                 bestDecision = listAccept.get(i);
@@ -226,19 +218,16 @@ public class Agent10 extends AbstractNegotiationParty {
         return bestDecision;
     }
 
-    // Calculate current target utility based on opponent's concession rate
     private double calculateCurrentTargetUtility(AgentID agentID) {
         double time = getTimeLine().getTime();
         double opponentConcessionRate = opponentModel.calculateOpponentConcessionRate(agentID);
-        return calcTargetUtil(max_utility, min_utility, inital_proposal_value, rate_of_concession, time, opponentConcessionRate);
+        return calcTargetUtil(max_utility, min_utility, initial_proposal_value, rate_of_concession, time, opponentConcessionRate);
     }
 
-
-    // Adjust negotiation strategy based on the utility of the most frequent bid
     private void adjustStrategyBasedOnMostFrequentBid(AgentID agentID) {
         BidDetails mostFrequentBid = opponentModel.getMostFrequentBid(agentID);
         if (mostFrequentBid != null) {
-            double ourUtility = utilitySpace.getUtility(mostFrequentBid.getBid());
+            double ourUtility = calcRecievedUtility(mostFrequentBid.getBid());
 
             if (ourUtility > 0.8) {
                 // If the utility is high, be less willing to concede
@@ -252,12 +241,10 @@ public class Agent10 extends AbstractNegotiationParty {
         }
     }
 
-    // Modify the rate of concession within bounds
     public void adjustRateOfConcession(double adjustment) {
         this.rate_of_concession = Math.max(0, Math.min(1, this.rate_of_concession + adjustment));
     }
 
-    // Decide on an offer based on the current time in the negotiation
     private ActionWithBid makeAnOffer() {
         System.out.println("Just made an offer!");
 
@@ -269,15 +256,15 @@ public class Agent10 extends AbstractNegotiationParty {
         // Decide on action based on the current time
         ActionWithBid action;
 
-        if (time > 0.1) {
-            rounds++;
+        if (time > 0.1){
+            rounds ++;
 
             if (time < 0.45) {
                 action = makeEarlyGameOffer();
             } else {
                 action = makeMidOrLateGameOffer();
             }
-        } else {
+        } else{
             action = makeEarlyGameOffer();
         }
 
@@ -285,24 +272,22 @@ public class Agent10 extends AbstractNegotiationParty {
         return action != null ? action : returnAction();
     }
 
-    // Process received offers and update offer lists
     private void processOffers(double time) {
         for (BidAndAgent currentBid : offerList) {
-            double offerUtility = this.utilitySpace.getUtility(currentBid.bid());
+            double offerUtility = calcRecievedUtility(currentBid.bid());
             receivedOffersList.add(new ProposalAnalysis(offerUtility));
             BidDetails offerReceiveDetail = new BidDetails(currentBid.bid(), offerUtility, time);
             pastBids.add(offerReceiveDetail);
         }
     }
 
-    // Make an offer based on the stage of the negotiation (early/mid/late game)
     private ActionWithBid makeEarlyGameOffer() {
 
         double utilityThreshold = (utilitySpace.getUtility(highestBid) + 0.8) / 2;
 
         for (BidAndAgent bidAndAgent : offerList) {
             AgentID sender = bidAndAgent.agentID();
-            utilityThreshold = adjustUtilityThresholdBasedOnOpponent(utilityThreshold, sender);
+            utilityThreshold = adjustUtilityThresholdBasedOnOpponent(utilityThreshold,sender);
         }
 
         previousBid = generateRandomBidWithUtility(utilityThreshold);
@@ -314,11 +299,10 @@ public class Agent10 extends AbstractNegotiationParty {
         return chooseBestAction(possibleActions);
     }
 
-    // Generate a list of possible actions to take
     private List<ActionWithBid> generatePossibleActions() {
         List<ActionWithBid> possibleActions = new ArrayList<>();
         for (BidAndAgent currentBid : offerList) {
-            if (previousBid != null && this.utilitySpace.getUtility(currentBid.bid()) > this.utilitySpace.getUtility(previousBid)) {
+            if (previousBid != null && calcRecievedUtility(currentBid.bid()) > calcRecievedUtility(previousBid)) {
                 possibleActions.add(new Accept(this.getPartyId(), currentBid.bid()));
             } else {
                 possibleActions.add(returnAction());
@@ -328,14 +312,12 @@ public class Agent10 extends AbstractNegotiationParty {
     }
 
 
-    // Choose the best action based on utility
     private ActionWithBid chooseBestAction(List<ActionWithBid> actions) {
         return actions.stream()
-                .max(Comparator.comparing(action -> this.utilitySpace.getUtility(action.getBid())))
+                .max(Comparator.comparing(action -> calcRecievedUtility(action.getBid())))
                 .orElse(null);
     }
 
-    // Adjust utility threshold based on opponent's behavior
     private double adjustUtilityThresholdBasedOnOpponent(double currentThreshold, AgentID agentID) {
         double opponentAverageUtility = opponentModel.calculateOpponentAverageUtility(agentID);
         double concessionRate = opponentModel.calculateOpponentConcessionRate(agentID);
@@ -416,11 +398,11 @@ public class Agent10 extends AbstractNegotiationParty {
         return factory.getUtilitySpace();
     }
 
-    // Calculate variance of a set of values
     private double calculateVariance(List<Double> values) {
         double mean = values.stream().mapToDouble(val -> val).average().orElse(0.0);
         return values.stream().mapToDouble(val -> (val - mean) * (val - mean)).average().orElse(0.0);
     }
+
 
     @Override
     public String getDescription() {

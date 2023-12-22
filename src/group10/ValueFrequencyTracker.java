@@ -55,13 +55,10 @@ public class ValueFrequencyTracker {
                 .findFirst().getAsInt() + 1;
     }
 
-    private static final Comparator<Map.Entry<Value, Integer>> frequencyComparator = new Comparator<Map.Entry<Value, Integer>>() {
-        @Override
-        public int compare(Map.Entry<Value, Integer> e1, Map.Entry<Value, Integer> e2) {
-            Integer v1 = e1.getValue();
-            Integer v2 = e2.getValue();
-            return v1.compareTo(v2);
-        }
+    private static final Comparator<Map.Entry<Value, Integer>> frequencyComparator = (e1, e2) -> {
+        Integer v1 = e1.getValue();
+        Integer v2 = e2.getValue();
+        return v1.compareTo(v2);
     };
 
 }
